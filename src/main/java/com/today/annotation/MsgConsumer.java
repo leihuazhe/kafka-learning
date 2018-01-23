@@ -3,7 +3,7 @@ package com.today.annotation;
 import java.lang.annotation.*;
 
 /**
- * Desc: TODO
+ * Desc: MsgConsumer
  * author: maple
  * Date: 2018-01-23 11:12
  */

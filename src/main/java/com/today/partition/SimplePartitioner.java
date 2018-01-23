@@ -6,9 +6,9 @@ import org.apache.kafka.common.Cluster;
 import java.util.Map;
 
 /**
- * Desc: TODO
- * author: maple
- * Date: 2018-01-20 14:25
+ * @Desc: SimplePartitioner
+ * @author: maple
+ * @Date: 2018-01-20 14:25
  */
 public class SimplePartitioner implements Partitioner{
 
