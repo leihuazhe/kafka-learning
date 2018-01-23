@@ -145,7 +145,6 @@ public class KafkaConsumerBase {
                     for (ConsumerRecord<String, String> record : partitionRecords) {
                         System.out.println(record.offset() + ": " + record.value());
                     }
-
                     long lastOffset = partitionRecords.get(partitionRecords.size() - 1).offset();
                     consumer.commitSync(Collections.singletonMap(partition, new OffsetAndMetadata(lastOffset + 1)));
                 }
