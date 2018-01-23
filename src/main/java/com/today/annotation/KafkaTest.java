@@ -1,6 +1,7 @@
 package com.today.annotation;
 
 import org.junit.Test;
+import org.springframework.stereotype.Component;
 
 import java.lang.annotation.Annotation;
 import java.lang.reflect.InvocationTargetException;
@@ -11,6 +12,7 @@ import java.lang.reflect.Method;
  * @author: maple
  * @Date: 2018-01-23 11:19
  */
+@Component
 public class KafkaTest {
 
     @Test
