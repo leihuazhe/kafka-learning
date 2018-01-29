@@ -27,7 +27,7 @@ public class KafkaProducerBase {
      */
     public static void main(String[] args) throws InterruptedException {
         Properties props = new Properties();
-        props.put("bootstrap.servers", "123.206.103.113:9092");
+        props.put("bootstrap.servers", "localhost:9092");
         props.put("acks", "all");
         props.put("retries", 1);
         props.put("batch.size", 16384); //缓存每个分区未发送消息
@@ -38,11 +38,11 @@ public class KafkaProducerBase {
 
         Producer<String,String> producer = new KafkaProducer<>(props);
 
-        for (int i = 0; i < 100; i++) {
+        for (int i = 0; i < 10; i++) {
             /**
              * send 是异步的， 添加到缓冲区后，马上返回。生产者将单个消息批量来进行发送 来提高效率
              */
-            final String TOPIC = "yum-ss";
+            final String TOPIC = "struy";
             Future<RecordMetadata> recordMetadata =
                     producer.send(new ProducerRecord<>(TOPIC, Integer.toString(i), TOPIC+Integer.toString(i)), new Callback() {
                                     @Override
