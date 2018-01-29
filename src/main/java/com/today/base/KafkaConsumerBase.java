@@ -30,8 +30,9 @@ public class KafkaConsumerBase {
         //        KafkaConsumer
         Properties props = new Properties();
         props.put("bootstrap.servers", "123.206.103.113:9092");
+        props.put("zookeeper.connect", "115.159.41.97:2181");
         //消费者组ID
-        props.put("group.id", "consumer-test");
+        props.put("group.id", "consumer");
         props.put("enable.auto.commit", "true");
         //控制自动提交的频率。
         props.put("auto.commit.interval.ms", "1000");
@@ -40,7 +41,7 @@ public class KafkaConsumerBase {
         props.put("key.deserializer", "org.apache.kafka.common.serialization.StringDeserializer");
         props.put("value.deserializer", "org.apache.kafka.common.serialization.StringDeserializer");
         KafkaConsumer<String, String> consumer = new KafkaConsumer<>(props);
-        consumer.subscribe(Arrays.asList("test", "bar"));
+        consumer.subscribe(Arrays.asList("test","my-topic", "bar"));
         while (true) {
             ConsumerRecords<String, String> records = consumer.poll(100);
             for (ConsumerRecord<String, String> record : records) {
@@ -98,7 +99,7 @@ public class KafkaConsumerBase {
         // false
         props.put("enable.auto.commit", "false");
         props.put("auto.commit.interval.ms", "1000");
-        props.put("session.timeout.ms", "30000");
+        props.put("session.timeout.ms", "3000");
         props.put("key.deserializer", "org.apache.kafka.common.serialization.StringDeserializer");
         props.put("value.deserializer", "org.apache.kafka.common.serialization.StringDeserializer");
 

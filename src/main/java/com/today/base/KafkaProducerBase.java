@@ -42,8 +42,9 @@ public class KafkaProducerBase {
             /**
              * send 是异步的， 添加到缓冲区后，马上返回。生产者将单个消息批量来进行发送 来提高效率
              */
+            final String TOPIC = "yum-ss";
             Future<RecordMetadata> recordMetadata =
-                    producer.send(new ProducerRecord<>("test", Integer.toString(i), "exception"+Integer.toString(i)), new Callback() {
+                    producer.send(new ProducerRecord<>(TOPIC, Integer.toString(i), TOPIC+Integer.toString(i)), new Callback() {
                                     @Override
                                     public void onCompletion(RecordMetadata metadata, Exception exception) {
                                         if(exception != null){
