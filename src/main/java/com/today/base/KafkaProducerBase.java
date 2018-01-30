@@ -38,7 +38,7 @@ public class KafkaProducerBase {
 
         Producer<String,String> producer = new KafkaProducer<>(props);
 
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < 100; i++) {
             /**
              * send 是异步的， 添加到缓冲区后，马上返回。生产者将单个消息批量来进行发送 来提高效率
              */
@@ -67,7 +67,7 @@ public class KafkaProducerBase {
 //            recordMetadata.
 
         }
-        Thread.sleep(Long.MAX_VALUE);
+        Thread.sleep(10000);
 
         /*
             send()方法是异步的，添加消息到缓冲区等待发送，并立即返回。生产者将单个的消息批量在一起发送来提高效率。
