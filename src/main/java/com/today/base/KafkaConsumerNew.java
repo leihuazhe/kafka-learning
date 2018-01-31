@@ -20,13 +20,15 @@ import java.util.Properties;
 public class KafkaConsumerNew {
     private static Logger logger = LoggerFactory.getLogger(KafkaConsumerNew.class);
 
+
+
     public static void main(String[] args) {
 
         //        KafkaConsumer
         Properties props = new Properties();
 
-        props.put("bootstrap.servers", "172.26.1.46:9092");
-        props.put("group.id", "windows");
+        props.put("bootstrap.servers", "172.26.1.46:9091");
+        props.put("group.id", "maple");
         props.put("enable.auto.commit", "true");
         props.put("auto.commit.interval.ms", "1000");
         props.put("key.deserializer", "org.apache.kafka.common.serialization.StringDeserializer");
@@ -47,7 +49,7 @@ public class KafkaConsumerNew {
             }
         });
 
-        logger.info("start.....");
+        logger.info("start ...");
 
         while (true) {
             ConsumerRecords<String, String> records = consumer.poll(100);

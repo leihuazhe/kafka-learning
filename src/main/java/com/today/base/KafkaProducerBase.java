@@ -38,7 +38,7 @@ public class KafkaProducerBase {
 
         Producer<String,String> producer = new KafkaProducer<>(props);
 
-        for (int i = 0; i < 100; i++) {
+        for (int i = 0; i < 10; i++) {
             /**
              * send 是异步的， 添加到缓冲区后，马上返回。生产者将单个消息批量来进行发送 来提高效率
              */
