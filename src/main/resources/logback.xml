@@ -48,13 +48,17 @@
     <!--<level value="DEBUG"/>-->
     <!--<appender-ref ref="SQLFILE"/>-->
     <!--</logger>-->
-    
+
     <!--显示spring对于事务管理的日志-->
     <!--<logger name="org.springframework.jdbc.datasource.DataSourceTransactionManager">
         <level value="DEBUG"/>
         <appender-ref ref="STDOUT"/>
     </logger>-->
 
+    <logger name="org.apache.kafka.*">
+            <level value="DEBUG"/>
+            <appender-ref ref="STDOUT"/>
+    </logger>
 
     <logger name="druid.sql" level="OFF"/>
 

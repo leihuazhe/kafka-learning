@@ -27,7 +27,7 @@ public class KafkaProducerBase {
      */
     public static void main(String[] args) throws InterruptedException {
         Properties props = new Properties();
-        props.put("bootstrap.servers", "localhost:9092");
+        props.put("bootstrap.servers", "172.26.1.46:9091");
         props.put("acks", "all");
         props.put("retries", 1);
         props.put("batch.size", 16384); //缓存每个分区未发送消息
