@@ -1,12 +1,10 @@
 package com.today.base;
 
 
-import org.apache.kafka.clients.consumer.ConsumerRecord;
-import org.apache.kafka.clients.consumer.ConsumerRecords;
-import org.apache.kafka.clients.consumer.KafkaConsumer;
-import org.apache.kafka.clients.consumer.OffsetAndMetadata;
+import org.apache.kafka.clients.consumer.*;
 import org.apache.kafka.common.TopicPartition;
 import org.junit.Test;
+import org.springframework.kafka.core.DefaultKafkaProducerFactory;
 
 import java.util.*;
 
@@ -29,8 +27,8 @@ public class KafkaConsumerBase {
     public static void main(String[] args) {
         //        KafkaConsumer
         Properties props = new Properties();
-        props.put("bootstrap.servers", "123.206.103.113:9092");
-        props.put("zookeeper.connect", "115.159.41.97:2181");
+        props.put("bootstrap.servers", "127.0.0.1:9092");
+        props.put("zookeeper.connect", "127.0.0.1:2181");
         //消费者组ID
         props.put("group.id", "consumer");
         props.put("enable.auto.commit", "true");
@@ -40,6 +38,9 @@ public class KafkaConsumerBase {
         //设置如何把byte转成object类型，例子中，通过指定string解析器，我们告诉获取到的消息的key和value只是简单个string类型。
         props.put("key.deserializer", "org.apache.kafka.common.serialization.StringDeserializer");
         props.put("value.deserializer", "org.apache.kafka.common.serialization.StringDeserializer");
+
+        props.put(ConsumerConfig.ISOLATION_LEVEL_CONFIG,"read_committed");
+
         KafkaConsumer<String, String> consumer = new KafkaConsumer<>(props);
         consumer.subscribe(Arrays.asList("test","my-topic", "bar"));
         while (true) {

@@ -8,26 +8,23 @@ import java.util.concurrent.Future;
 
 /**
  * @Desc: KafkaBase kafka 客户端发送 record (消息) 到 kafka 集群
- *
  * @author: maple
  * @Date: 2018-01-18 15:44
  */
 public class KafkaProducerBase {
+
+
+    public void init(){
+
+    }
     /**
-     *  生产者的缓冲空间池保留尚未发送到服务器的消息
-     *
-     *
-     *
-     *
-     *
-     *
-     *
+     * 生产者的缓冲空间池保留尚未发送到服务器的消息
      *
      * @param args
      */
     public static void main(String[] args) throws InterruptedException {
         Properties props = new Properties();
-        props.put("bootstrap.servers", "172.26.1.46:9091");
+        props.put("bootstrap.servers", "127.0.0.1:9092");
         props.put("acks", "all");
         props.put("retries", 1);
         props.put("batch.size", 16384); //缓存每个分区未发送消息
@@ -35,39 +32,47 @@ public class KafkaProducerBase {
         props.put("buffer.memory", 33554432);
         props.put("key.serializer", "org.apache.kafka.common.serialization.StringSerializer");
         props.put("value.serializer", "org.apache.kafka.common.serialization.StringSerializer");
+        props.put(ProducerConfig.TRANSACTIONAL_ID_CONFIG, "test");
+        //默认 60 000ms  60 s
+//        props.put(ProducerConfig.TRANSACTION_TIMEOUT_CONFIG,"100000");
 
-        Producer<String,String> producer = new KafkaProducer<>(props);
+        Producer<String, String> producer = new KafkaProducer<>(props);
 
-        for (int i = 0; i < 10; i++) {
-            /**
-             * send 是异步的， 添加到缓冲区后，马上返回。生产者将单个消息批量来进行发送 来提高效率
-             */
-            final String TOPIC = "struy";
-            Future<RecordMetadata> recordMetadata =
-                    producer.send(new ProducerRecord<>(TOPIC, Integer.toString(i), TOPIC+Integer.toString(i)), new Callback() {
-                                    @Override
-                                    public void onCompletion(RecordMetadata metadata, Exception exception) {
-                                        if(exception != null){
-                                           exception.printStackTrace();
-                                        }
-                                        System.out.println("已经发送成功  "+ metadata.toString());
-                    //                    RecordMetadata
-                                    }
-                    });
+        producer.initTransactions();
+        producer.beginTransaction();
 
-            Random random = new Random();
-            int res = random.nextInt(10);
-            /*try{
-                if(res <= 1) {throw  new RuntimeException("故意异常"); }
+        try {
+            for (int i = 0; i < 10; i++) {
+                /**
+                 * send 是异步的， 添加到缓冲区后，马上返回。生产者将单个消息批量来进行发送 来提高效率
+                 */
+                final String TOPIC = "event";
+                Future<RecordMetadata> result =
+                        producer.send(new ProducerRecord<>(TOPIC, Integer.toString(i), TOPIC + Integer.toString(i)), new Callback() {
+                            @Override
+                            public void onCompletion(RecordMetadata metadata, Exception exception) {
+                                if (exception != null) {
+                                    exception.printStackTrace();
+                                }
+                                System.out.println("已经发送成功  " + metadata.toString());
+                                //                    RecordMetadata
+                            }
+                        });
 
-            }catch (Exception e) {
-                e.printStackTrace();
-            }*/
-
-//            recordMetadata.
-
+                Random random = new Random();
+                int res = random.nextInt(10);
+//                Thread.sleep(1000);
+                /*if (i == 8) {
+                    throw new RuntimeException("故意异常");
+                }*/
+            }
+            System.out.println("<========>");
+            producer.commitTransaction();
+        } catch (Exception e) {
+            e.printStackTrace();
+            producer.abortTransaction();
         }
-        Thread.sleep(10000);
+
 
         /*
             send()方法是异步的，添加消息到缓冲区等待发送，并立即返回。生产者将单个的消息批量在一起发送来提高效率。
@@ -87,4 +92,19 @@ public class KafkaProducerBase {
 
 
     }
+
+
+    /**
+     补充说明：对于commitTransaction方法，
+     它会在发送EndTxnRequest之前先调用flush方法以确保所有发送出去的数据都得到相应的ACK。
+
+     对于abortTransaction方法，在发送EndTxnRequest之前直接将当前Buffer中的事务性消息（如果有）全部丢弃，
+     但必须等待所有被发送但尚未收到ACK的消息发送完成。
+
+
+     上述第二步是实现将一组读操作与写操作作为一个事务处理的关键。
+     因为Producer写入的数据Topic以及记录Comsumer Offset的Topic会被写入相同的Transactin Marker，
+
+     所以这一组读操作与写操作要么全部COMMIT要么全部ABORT。
+     */
 }
