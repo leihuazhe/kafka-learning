@@ -62,7 +62,7 @@
 
     <logger name="druid.sql" level="OFF"/>
 
-    <root level="DEBUG">
+    <root level="INFO">
         <!--<if condition='!property("soa.run.mode").equals("native")'>-->
             <!--<then>-->
                 <appender-ref ref="STDOUT"/>
