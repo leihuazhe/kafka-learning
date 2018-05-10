@@ -22,16 +22,6 @@
         </encoder>
     </appender>
 
-    <!--<appender name="SQLFILE" class="ch.qos.logback.core.rolling.RollingFileAppender">-->
-    <!--<prudent>true</prudent>-->
-    <!--<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">-->
-    <!--<fileNamePattern>${soa.base}/logs/sql-crm-service.%d{yyyy-MM-dd}.log</fileNamePattern>-->
-    <!--<maxHistory>30</maxHistory>-->
-    <!--</rollingPolicy>-->
-    <!--<encoder>-->
-    <!--<pattern>%d{MM-dd HH:mm:ss SSS} %t %p - %m%n</pattern>-->
-    <!--</encoder>-->
-    <!--</appender>-->
 
     <!--<logger name="wangzx.scala_commons.sql" level="OFF"/>-->
 
@@ -55,19 +45,15 @@
         <appender-ref ref="STDOUT"/>
     </logger>-->
 
-    <logger name="org.apache.kafka.*">
-            <level value="DEBUG"/>
-            <appender-ref ref="STDOUT"/>
-    </logger>
+    <!--<logger name="org.apache.kafka.*">
+        <level value="DEBUG"/>
+        <appender-ref ref="STDOUT"/>
+    </logger>-->
 
     <logger name="druid.sql" level="OFF"/>
 
-    <root level="INFO">
-        <!--<if condition='!property("soa.run.mode").equals("native")'>-->
-            <!--<then>-->
-                <appender-ref ref="STDOUT"/>
-            <!--</then>-->
-        <!--</if>-->
+    <root level="DEBUG">
+        <appender-ref ref="STDOUT"/>
         <appender-ref ref="DETAILFILE"/>
     </root>
 

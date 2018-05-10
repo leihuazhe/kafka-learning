@@ -5,8 +5,10 @@ import org.apache.kafka.clients.consumer.*;
 import org.apache.kafka.common.TopicPartition;
 import org.junit.Test;
 import org.springframework.kafka.core.DefaultKafkaProducerFactory;
+import scala.Int;
 
 import java.util.*;
+import java.util.concurrent.atomic.AtomicInteger;
 
 /**
  * @Desc: KafkaConsumerBase
@@ -24,14 +26,15 @@ public class KafkaConsumerBase {
      *
      * @param args
      */
+    private static AtomicInteger retry = new AtomicInteger(10);
+
     public static void main(String[] args) {
         //        KafkaConsumer
         Properties props = new Properties();
-        props.put("bootstrap.servers", "127.0.0.1:9092");
-        props.put("zookeeper.connect", "127.0.0.1:2181");
+        props.put("bootstrap.servers", "123.206.103.113:9092");
         //消费者组ID
         props.put("group.id", "consumer");
-        props.put("enable.auto.commit", "true");
+        props.put("enable.auto.commit", "false");
         //控制自动提交的频率。
         props.put("auto.commit.interval.ms", "1000");
         //deserializer
@@ -39,17 +42,64 @@ public class KafkaConsumerBase {
         props.put("key.deserializer", "org.apache.kafka.common.serialization.StringDeserializer");
         props.put("value.deserializer", "org.apache.kafka.common.serialization.StringDeserializer");
 
-        props.put(ConsumerConfig.ISOLATION_LEVEL_CONFIG,"read_committed");
+//        props.put(ConsumerConfig.ISOLATION_LEVEL_CONFIG, "read_committed");
 
         KafkaConsumer<String, String> consumer = new KafkaConsumer<>(props);
-        consumer.subscribe(Arrays.asList("test","my-topic", "bar"));
+        consumer.subscribe(Arrays.asList("my-topic"));
         while (true) {
             ConsumerRecords<String, String> records = consumer.poll(100);
-            for (ConsumerRecord<String, String> record : records) {
-                System.out.printf("offset = %d, key = %s, value = %s%n", record.offset(), record.key(), record.value());
+
+            if (records != null && records.count() > 0) {
+                System.out.println("------------   poll size :" + records.count());
+                try {
+                    for (ConsumerRecord<String, String> record : records) {
+                        System.out.printf("offset = %d, key = %s, value = %s%n", record.offset(), record.key(), record.value());
+
+                        try {
+                            dealMessage(record.value());
+                        } catch (Exception e) {
+                            e.printStackTrace();
+                            long offset = record.offset();
+                            int partition = record.partition();
+                            String topic = record.topic();
+                            TopicPartition topicPartition = new TopicPartition(topic, partition);
+                            //将offset seek到当前失败的消息位置，前面已经消费的消息的偏移量相当于已经提交了，因为这里seek到偏移量是最新的报错的offset。手动管理偏移量
+                            consumer.seek(topicPartition, offset);
+                            System.out.println("当前偏移量是 " + offset);
+                            break;
+                        }
+                    }
+                    consumer.commitSync();
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
             }
         }
+    }
 
+    private static void retry(long offset) {
+
+
+    }
+
+    private static void dealMessage(String value) {
+//        System.out.println("begin to dealMessage ");
+
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+//        int i = new Random().nextInt(10);
+//        System.out.println("----> i: " + i);
+//        int i = 6;
+
+
+        if (Integer.valueOf(value) == 50) {
+            throw new RuntimeException("故意异常");
+        }
+
+        System.out.println("end to process message");
 
     }
 
@@ -138,7 +188,7 @@ public class KafkaConsumerBase {
          *
          */
         try {
-            while(true) {
+            while (true) {
                 ConsumerRecords<String, String> records = consumer.poll(Long.MAX_VALUE);
                 for (TopicPartition partition : records.partitions()) {
 
