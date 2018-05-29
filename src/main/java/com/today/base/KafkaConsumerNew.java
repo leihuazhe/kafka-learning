@@ -28,12 +28,12 @@ public class KafkaConsumerNew {
         props.put("auto.commit.interval.ms", "1000");
         props.put("key.deserializer", "org.apache.kafka.common.serialization.StringDeserializer");
         props.put("value.deserializer", "org.apache.kafka.common.serialization.StringDeserializer");
-        props.put(ConsumerConfig.ISOLATION_LEVEL_CONFIG, "read_committed");
+//        props.put(ConsumerConfig.ISOLATION_LEVEL_CONFIG, "read_committed");
 
         //设置如何把byte转成object类型，例子中，通过指定string解析器，我们告诉获取到的消息的key和value只是简单个string类型。
         final KafkaConsumer<String, String> consumer = new KafkaConsumer<>(props);
 
-        consumer.subscribe(Arrays.asList("event"), new ConsumerRebalanceListener() {
+        consumer.subscribe(Arrays.asList("struy3"), new ConsumerRebalanceListener() {
 
             @Override
             public void onPartitionsRevoked(Collection<TopicPartition> partitions) {
@@ -43,6 +43,7 @@ public class KafkaConsumerNew {
             @Override
             public void onPartitionsAssigned(Collection<TopicPartition> partitions) {
 //                consumer.seekToBeginning(partitions);
+//                partitions.forEach(p -> consumer.seek(p,211));
             }
         });
 
@@ -50,12 +51,24 @@ public class KafkaConsumerNew {
 
         while (true) {
             ConsumerRecords<String, String> records = consumer.poll(100);
+            System.out.println("poll size:" + records.count());
+
             for (ConsumerRecord<String, String> record : records) {
-                System.out.printf("offset = %d, key = %s, value = %s%n", record.offset(), record.key(), record.value());
+                System.out.printf("offset = %d, key = %s, value = %s ,spartition = %d \n", record.offset(), record.key(), record.value(), record.partition());
+                try {
+                    Thread.sleep(10);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+                consumer.commitAsync();
 
 
+                TopicPartition tp = new TopicPartition(record.topic(), record.partition());
+//                consumer.seek(tp,211);
+//                break;
 
             }
+
 
             logger.debug("what?");
 

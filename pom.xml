@@ -84,7 +84,7 @@
         <dependency>
             <groupId>com.today</groupId>
             <artifactId>event-bus_2.12</artifactId>
-            <version>0.1-SNAPSHOT</version>
+            <version>0.2-SNAPSHOT</version>
         </dependency>
 
 

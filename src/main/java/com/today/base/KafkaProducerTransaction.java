@@ -11,7 +11,7 @@ import java.util.concurrent.Future;
  * @author: maple
  * @Date: 2018-01-18 15:44
  */
-public class KafkaProducerBase {
+public class KafkaProducerTransaction {
 
 
     public void init() {
@@ -33,43 +33,35 @@ public class KafkaProducerBase {
         props.put("buffer.memory", 33554432);
         props.put("key.serializer", "org.apache.kafka.common.serialization.StringSerializer");
         props.put("value.serializer", "org.apache.kafka.common.serialization.StringSerializer");
-//        props.put(ProducerConfig.TRANSACTIONAL_ID_CONFIG, "test");
-        //默认 60 000ms  60 s
-//        props.put(ProducerConfig.TRANSACTION_TIMEOUT_CONFIG,"100000");
+        props.put(ProducerConfig.TRANSACTIONAL_ID_CONFIG, "test12345");
+        props.put(ProducerConfig.ENABLE_IDEMPOTENCE_CONFIG, true);
 
         Producer<String, String> producer = new KafkaProducer<>(props);
 
-//        producer.initTransactions();
-//        producer.beginTransaction();
+        producer.initTransactions();
+        producer.beginTransaction();
 
         try {
-            for (int i = 0; i < 100000; i++) {
+            for (int i = 0; i < 100; i++) {
                 /**
                  * send 是异步的， 添加到缓冲区后，马上返回。生产者将单个消息批量来进行发送 来提高效率
                  */
-                final String TOPIC = "struy3";
+                final String TOPIC = "event";
                 Future<RecordMetadata> result =
                         producer.send(new ProducerRecord<>(TOPIC, Integer.toString(i), TOPIC + Integer.toString(i)), new Callback() {
                             @Override
                             public void onCompletion(RecordMetadata metadata, Exception exception) {
                                 if (exception != null) {
                                     exception.printStackTrace();
-                                }else{
-                                    int partition = metadata.partition();
-                                    long offset = metadata.offset();
-                                    System.out.println("已经发送成功 offset:   " +offset+ " , p:" + partition);
                                 }
+
+                                System.out.println("offset:" + metadata.offset() + ", p:" + metadata.partition());
+                                System.out.println("已经发送成功  " + metadata.toString());
                                 //                    RecordMetadata
                             }
                         });
-
-                Random random = new Random();
-                int res = random.nextInt(10);
-                Thread.sleep(10);
-
             }
-            System.out.println("<========>");
-//            producer.commitTransaction();
+            producer.commitTransaction();
         } catch (Exception e) {
             e.printStackTrace();
             producer.abortTransaction();

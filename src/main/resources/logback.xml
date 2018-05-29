@@ -45,10 +45,10 @@
         <appender-ref ref="STDOUT"/>
     </logger>-->
 
-    <!--<logger name="org.apache.kafka.*">
+    <logger name="org.apache.kafka.*">
         <level value="DEBUG"/>
         <appender-ref ref="STDOUT"/>
-    </logger>-->
+    </logger>
 
     <logger name="druid.sql" level="OFF"/>
 

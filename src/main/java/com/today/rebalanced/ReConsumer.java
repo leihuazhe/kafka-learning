@@ -66,7 +66,7 @@ public class ReConsumer {
                     OffsetAndMetadata offset = consumer.committed(partition);
                     System.out.println("onPartitionsAssigned: " + offset);
                     //设置本地拉取分量，下次拉取消息以这个偏移量为准
-                    consumer.seek(partition, offset.offset()+1);
+                    consumer.seek(partition, offset.offset());
                 });
             }
         });
