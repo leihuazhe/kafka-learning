@@ -1,4 +1,4 @@
-import com.today.annotation.KafkaTest;
+import com.today.basic.annotation.KafkaTest;
 import org.junit.Test;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 

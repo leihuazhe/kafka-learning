@@ -12,6 +12,6 @@
     <!--<context:property-placeholder location="classpath:config_sharding.properties" local-override="false"
                                   system-properties-mode="ENVIRONMENT"/>-->
 
-    <context:component-scan base-package="com.today.*"/>
+    <context:component-scan base-package="com.today.eventbus"/>
 
 </beans>
