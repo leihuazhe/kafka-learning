@@ -1,6 +1,5 @@
 package com.today.basic.rebalanced;
 
-import com.github.dapeng.core.SoaException;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
@@ -13,9 +12,9 @@ import java.lang.reflect.Method;
  */
 public class A {
 
-    public void foo() throws SoaException {
+    public void foo() {
         System.out.println("foo...");
-        throw new SoaException("故意异常！", "异常测试");
+        throw new RuntimeException("故意异常！");
     }
 
     public static void main(String[] args) throws IllegalAccessException, InstantiationException, NoSuchMethodException {

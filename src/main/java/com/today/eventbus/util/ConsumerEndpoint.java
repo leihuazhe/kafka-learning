@@ -1,10 +1,6 @@
 package com.today.eventbus.util;
 
 
-import com.github.dapeng.core.BeanSerializer;
-
-import java.lang.reflect.Method;
-import java.util.List;
 
 /**
  * 描述: 业务关心 consumer 上下文

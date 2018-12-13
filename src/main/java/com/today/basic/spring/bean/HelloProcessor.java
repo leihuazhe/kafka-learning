@@ -1,5 +1,7 @@
 package com.today.basic.spring.bean;
 
+import org.springframework.kafka.annotation.KafkaListener;
+
 /**
  * desc: HelloProcessor
  *
@@ -8,6 +10,7 @@ package com.today.basic.spring.bean;
  */
 public class HelloProcessor {
 
+    @KafkaListener
     public void foo() {
         System.out.println("你好，我是内部bean，你能调用到吗?");
     }
