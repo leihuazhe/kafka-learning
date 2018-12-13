@@ -7,7 +7,6 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.util.Properties;
-import java.util.Random;
 
 /**
  * @Desc: BusinessProducer kafka 客户端发送 record (消息) 到 kafka 集群
@@ -40,7 +39,7 @@ public class BusinessProducer {
 
             EventStore eventStore = buildEventMsg();
 
-            producer.send(new ProducerRecord<>(topic, eventStore.getId(), eventStore.getEventBinary()), (Callback) (metadata, exception) -> {
+            producer.send(new ProducerRecord<>(topic, eventStore.getId(), eventStore.getEventBinary()), (metadata, exception) -> {
                 if (exception != null) {
                     logger.error(exception.getMessage(), exception);
                 } else {
@@ -55,8 +54,6 @@ public class BusinessProducer {
         } catch (Exception e) {
             logger.error(e.getMessage(), e);
         }
-
-
     }
 
     public static EventStore buildEventMsg() {
