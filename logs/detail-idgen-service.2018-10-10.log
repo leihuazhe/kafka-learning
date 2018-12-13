@@ -1,0 +1,2116 @@
+10-10 13:28:48 217 main INFO - ProducerConfig values: 
+	acks = all
+	batch.size = 16384
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.id = 
+	compression.type = none
+	connections.max.idle.ms = 540000
+	enable.idempotence = false
+	interceptor.classes = null
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 1
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 1
+	retry.backoff.ms = 100
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+10-10 13:28:48 586 main INFO - Kafka version : 1.0.2
+10-10 13:28:48 588 main INFO - Kafka commitId : 2a121f7b1d402825
+10-10 13:31:13 214 main INFO - ProducerConfig values: 
+	acks = all
+	batch.size = 16384
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.id = 
+	compression.type = none
+	connections.max.idle.ms = 540000
+	enable.idempotence = true
+	interceptor.classes = null
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 1
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 1
+	retry.backoff.ms = 100
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = 738da8ab-1604-41e1-8d41-75fc6d6a1431
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+10-10 13:31:13 378 main INFO - [Producer clientId=producer-1, transactionalId=738da8ab-1604-41e1-8d41-75fc6d6a1431] Instantiated a transactional producer.
+10-10 13:31:13 556 main INFO - Kafka version : 1.0.2
+10-10 13:31:13 556 main INFO - Kafka commitId : 2a121f7b1d402825
+10-10 13:31:13 560 main INFO - [Producer clientId=producer-1, transactionalId=738da8ab-1604-41e1-8d41-75fc6d6a1431] ProducerId set to -1 with epoch -1
+10-10 13:31:14 196 kafka-producer-network-thread | producer-1 INFO - [Producer clientId=producer-1, transactionalId=738da8ab-1604-41e1-8d41-75fc6d6a1431] ProducerId set to 32000 with epoch 0
+10-10 13:32:38 614 main INFO - ProducerConfig values: 
+	acks = all
+	batch.size = 16384
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.id = 
+	compression.type = none
+	connections.max.idle.ms = 540000
+	enable.idempotence = true
+	interceptor.classes = null
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 1
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 1
+	retry.backoff.ms = 100
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = e4d32ca8-752f-4ca6-ba93-078b20b40f54
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+10-10 13:32:38 813 main INFO - [Producer clientId=producer-1, transactionalId=e4d32ca8-752f-4ca6-ba93-078b20b40f54] Instantiated a transactional producer.
+10-10 13:32:38 889 main INFO - Kafka version : 1.0.2
+10-10 13:32:38 890 main INFO - Kafka commitId : 2a121f7b1d402825
+10-10 13:32:38 894 main INFO - [Producer clientId=producer-1, transactionalId=e4d32ca8-752f-4ca6-ba93-078b20b40f54] ProducerId set to -1 with epoch -1
+10-10 13:32:39 346 kafka-producer-network-thread | producer-1 INFO - [Producer clientId=producer-1, transactionalId=e4d32ca8-752f-4ca6-ba93-078b20b40f54] ProducerId set to 32001 with epoch 0
+10-10 13:32:39 381 main ERROR - Cannot call send in state READY
+java.lang.IllegalStateException: Cannot call send in state READY
+	at org.apache.kafka.clients.producer.internals.TransactionManager.failIfNotReadyForSend(TransactionManager.java:287) ~[kafka-clients-1.0.2.jar:na]
+	at org.apache.kafka.clients.producer.internals.TransactionManager.maybeAddPartitionToTransaction(TransactionManager.java:263) ~[kafka-clients-1.0.2.jar:na]
+	at org.apache.kafka.clients.producer.KafkaProducer.doSend(KafkaProducer.java:812) ~[kafka-clients-1.0.2.jar:na]
+	at org.apache.kafka.clients.producer.KafkaProducer.send(KafkaProducer.java:768) ~[kafka-clients-1.0.2.jar:na]
+	at com.today.basic.restart.RestartableProducer.lambda$sendMessage$1(RestartableProducer.java:44) ~[classes/:na]
+	at java.util.Collections$SingletonList.forEach(Collections.java:4822) ~[na:1.8.0_181]
+	at com.today.basic.restart.RestartableProducer.sendMessage(RestartableProducer.java:43) ~[classes/:na]
+	at com.today.basic.restart.Main.main(Main.java:20) [classes/:na]
+10-10 13:36:02 694 main INFO - ProducerConfig values: 
+	acks = all
+	batch.size = 16384
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.id = 
+	compression.type = none
+	connections.max.idle.ms = 540000
+	enable.idempotence = true
+	interceptor.classes = null
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 1
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 1
+	retry.backoff.ms = 100
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = 0dae84a7-a945-4cde-8541-aa8ebc1d80c9
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+10-10 13:36:02 913 main INFO - [Producer clientId=producer-1, transactionalId=0dae84a7-a945-4cde-8541-aa8ebc1d80c9] Instantiated a transactional producer.
+10-10 13:36:02 991 main INFO - Kafka version : 1.0.2
+10-10 13:36:02 991 main INFO - Kafka commitId : 2a121f7b1d402825
+10-10 13:36:10 578 main INFO - [Producer clientId=producer-1, transactionalId=0dae84a7-a945-4cde-8541-aa8ebc1d80c9] ProducerId set to -1 with epoch -1
+10-10 13:36:11 138 kafka-producer-network-thread | producer-1 INFO - [Producer clientId=producer-1, transactionalId=0dae84a7-a945-4cde-8541-aa8ebc1d80c9] ProducerId set to 32002 with epoch 0
+10-10 13:36:22 518 main ERROR - Cannot call send in state READY
+java.lang.IllegalStateException: Cannot call send in state READY
+	at org.apache.kafka.clients.producer.internals.TransactionManager.failIfNotReadyForSend(TransactionManager.java:287) ~[kafka-clients-1.0.2.jar:na]
+	at org.apache.kafka.clients.producer.internals.TransactionManager.maybeAddPartitionToTransaction(TransactionManager.java:263) ~[kafka-clients-1.0.2.jar:na]
+	at org.apache.kafka.clients.producer.KafkaProducer.doSend(KafkaProducer.java:812) ~[kafka-clients-1.0.2.jar:na]
+	at org.apache.kafka.clients.producer.KafkaProducer.send(KafkaProducer.java:768) ~[kafka-clients-1.0.2.jar:na]
+	at com.today.basic.restart.RestartableProducer.lambda$sendMessage$1(RestartableProducer.java:44) ~[classes/:na]
+	at java.util.Collections$SingletonList.forEach(Collections.java:4822) ~[na:1.8.0_181]
+	at com.today.basic.restart.RestartableProducer.sendMessage(RestartableProducer.java:43) ~[classes/:na]
+	at com.today.basic.restart.Main.main(Main.java:20) [classes/:na]
+10-10 13:40:41 481 main INFO - ProducerConfig values: 
+	acks = all
+	batch.size = 16384
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.id = 
+	compression.type = none
+	connections.max.idle.ms = 540000
+	enable.idempotence = true
+	interceptor.classes = null
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 1
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 1
+	retry.backoff.ms = 100
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = db5d63ae-2bfe-48f5-93ef-1b1a449d47ea
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+10-10 13:40:41 857 main INFO - [Producer clientId=producer-1, transactionalId=db5d63ae-2bfe-48f5-93ef-1b1a449d47ea] Instantiated a transactional producer.
+10-10 13:40:41 919 main INFO - Kafka version : 1.0.2
+10-10 13:40:41 919 main INFO - Kafka commitId : 2a121f7b1d402825
+10-10 13:40:41 922 main INFO - [Producer clientId=producer-1, transactionalId=db5d63ae-2bfe-48f5-93ef-1b1a449d47ea] ProducerId set to -1 with epoch -1
+10-10 13:40:42 296 kafka-producer-network-thread | producer-1 INFO - [Producer clientId=producer-1, transactionalId=db5d63ae-2bfe-48f5-93ef-1b1a449d47ea] ProducerId set to 32003 with epoch 0
+10-10 13:40:42 626 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 0, partition: 0   
+10-10 13:40:42 785 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 2, partition: 0   
+10-10 13:40:42 820 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 4, partition: 0   
+10-10 13:40:42 894 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 6, partition: 0   
+10-10 13:40:42 942 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 8, partition: 0   
+10-10 13:40:42 999 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 10, partition: 0   
+10-10 13:40:43 045 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 12, partition: 0   
+10-10 13:40:43 101 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 14, partition: 0   
+10-10 13:40:43 168 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 16, partition: 0   
+10-10 13:40:43 228 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 18, partition: 0   
+10-10 13:40:43 278 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 20, partition: 0   
+10-10 13:40:43 333 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 22, partition: 0   
+10-10 13:40:43 393 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 24, partition: 0   
+10-10 13:40:43 440 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 26, partition: 0   
+10-10 13:40:43 478 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 28, partition: 0   
+10-10 13:40:43 524 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 30, partition: 0   
+10-10 13:40:43 581 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 32, partition: 0   
+10-10 13:40:43 630 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 34, partition: 0   
+10-10 13:40:43 683 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 36, partition: 0   
+10-10 13:40:43 721 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 38, partition: 0   
+10-10 13:40:43 794 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 40, partition: 0   
+10-10 13:40:43 869 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 42, partition: 0   
+10-10 13:40:43 943 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 44, partition: 0   
+10-10 13:40:43 988 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 46, partition: 0   
+10-10 13:40:44 067 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 48, partition: 0   
+10-10 13:40:44 120 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 50, partition: 0   
+10-10 13:40:44 160 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 52, partition: 0   
+10-10 13:40:44 201 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 54, partition: 0   
+10-10 13:40:44 244 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 56, partition: 0   
+10-10 13:40:44 303 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 58, partition: 0   
+10-10 13:40:44 360 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 60, partition: 0   
+10-10 13:40:44 409 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 62, partition: 0   
+10-10 13:40:44 462 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 64, partition: 0   
+10-10 13:40:44 509 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 66, partition: 0   
+10-10 13:40:44 564 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 68, partition: 0   
+10-10 13:40:44 592 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 70, partition: 0   
+10-10 13:40:44 625 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 72, partition: 0   
+10-10 13:40:44 660 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 74, partition: 0   
+10-10 13:40:44 708 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 76, partition: 0   
+10-10 13:40:44 748 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 78, partition: 0   
+10-10 13:40:44 801 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 80, partition: 0   
+10-10 13:40:44 842 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 82, partition: 0   
+10-10 13:40:44 899 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 84, partition: 0   
+10-10 13:40:44 934 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 86, partition: 0   
+10-10 13:40:44 972 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 88, partition: 0   
+10-10 13:40:45 014 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 90, partition: 0   
+10-10 13:40:45 064 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 92, partition: 0   
+10-10 13:40:45 114 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 94, partition: 0   
+10-10 13:40:45 158 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 96, partition: 0   
+10-10 13:40:45 205 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 98, partition: 0   
+10-10 13:40:45 267 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 100, partition: 0   
+10-10 13:40:45 301 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 102, partition: 0   
+10-10 13:40:45 321 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 104, partition: 0   
+10-10 13:40:45 374 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 106, partition: 0   
+10-10 13:40:45 436 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 108, partition: 0   
+10-10 13:40:45 482 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 110, partition: 0   
+10-10 13:40:45 529 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 112, partition: 0   
+10-10 13:40:45 561 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 114, partition: 0   
+10-10 13:40:45 606 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 116, partition: 0   
+10-10 13:40:45 646 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 118, partition: 0   
+10-10 13:40:45 705 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 120, partition: 0   
+10-10 13:40:45 746 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 122, partition: 0   
+10-10 13:40:45 790 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 124, partition: 0   
+10-10 13:40:45 827 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 126, partition: 0   
+10-10 13:40:45 888 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 128, partition: 0   
+10-10 13:40:45 945 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 130, partition: 0   
+10-10 13:40:45 968 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 132, partition: 0   
+10-10 13:40:46 015 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 134, partition: 0   
+10-10 13:40:46 036 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 136, partition: 0   
+10-10 13:40:46 066 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 138, partition: 0   
+10-10 13:40:46 126 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 140, partition: 0   
+10-10 13:40:46 169 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 142, partition: 0   
+10-10 13:40:46 209 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 144, partition: 0   
+10-10 13:40:46 233 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 146, partition: 0   
+10-10 13:40:46 252 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 148, partition: 0   
+10-10 13:40:46 294 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 150, partition: 0   
+10-10 13:40:46 360 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 152, partition: 0   
+10-10 13:40:46 411 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 154, partition: 0   
+10-10 13:40:46 460 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 156, partition: 0   
+10-10 13:40:46 487 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 158, partition: 0   
+10-10 13:40:46 521 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 160, partition: 0   
+10-10 13:40:46 562 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 162, partition: 0   
+10-10 13:40:46 623 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 164, partition: 0   
+10-10 13:40:46 666 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 166, partition: 0   
+10-10 13:40:46 714 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 168, partition: 0   
+10-10 13:40:46 766 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 170, partition: 0   
+10-10 13:40:47 789 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 172, partition: 0   
+10-10 13:40:47 837 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 174, partition: 0   
+10-10 13:40:47 885 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 176, partition: 0   
+10-10 13:40:47 928 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 178, partition: 0   
+10-10 13:40:47 964 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 180, partition: 0   
+10-10 13:40:48 014 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 182, partition: 0   
+10-10 13:40:48 063 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 184, partition: 0   
+10-10 13:40:48 096 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 186, partition: 0   
+10-10 13:40:48 132 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 188, partition: 0   
+10-10 13:40:48 179 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 190, partition: 0   
+10-10 13:40:48 215 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 192, partition: 0   
+10-10 13:40:48 285 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 194, partition: 0   
+10-10 13:40:48 326 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 196, partition: 0   
+10-10 13:40:48 348 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 198, partition: 0   
+10-10 13:40:48 399 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 200, partition: 0   
+10-10 13:40:48 462 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 202, partition: 0   
+10-10 13:40:48 503 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 204, partition: 0   
+10-10 13:40:48 545 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 206, partition: 0   
+10-10 13:40:48 579 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 208, partition: 0   
+10-10 13:40:48 620 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 210, partition: 0   
+10-10 13:40:48 687 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 212, partition: 0   
+10-10 13:40:48 741 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 214, partition: 0   
+10-10 13:40:48 790 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 216, partition: 0   
+10-10 13:40:48 837 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 218, partition: 0   
+10-10 13:40:48 874 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 220, partition: 0   
+10-10 13:40:48 926 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 222, partition: 0   
+10-10 13:40:48 970 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 224, partition: 0   
+10-10 13:40:48 996 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 226, partition: 0   
+10-10 13:40:49 049 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 228, partition: 0   
+10-10 13:40:49 083 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 230, partition: 0   
+10-10 13:40:49 127 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 232, partition: 0   
+10-10 13:40:49 169 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 234, partition: 0   
+10-10 13:40:49 232 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 236, partition: 0   
+10-10 13:40:49 273 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 238, partition: 0   
+10-10 13:40:49 319 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 240, partition: 0   
+10-10 13:40:49 366 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 242, partition: 0   
+10-10 13:40:49 430 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 244, partition: 0   
+10-10 13:40:49 466 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 246, partition: 0   
+10-10 13:40:49 493 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 248, partition: 0   
+10-10 13:40:49 539 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 250, partition: 0   
+10-10 13:40:49 593 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 252, partition: 0   
+10-10 13:40:49 632 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 254, partition: 0   
+10-10 13:40:49 669 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 256, partition: 0   
+10-10 13:40:49 689 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 258, partition: 0   
+10-10 13:40:49 730 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 260, partition: 0   
+10-10 13:40:49 766 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 262, partition: 0   
+10-10 13:40:49 819 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 264, partition: 0   
+10-10 13:40:49 880 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 266, partition: 0   
+10-10 13:40:49 925 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 268, partition: 0   
+10-10 13:40:49 967 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 270, partition: 0   
+10-10 13:40:50 009 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 272, partition: 0   
+10-10 13:40:50 060 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 274, partition: 0   
+10-10 13:40:50 098 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 276, partition: 0   
+10-10 13:40:50 167 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 278, partition: 0   
+10-10 13:40:50 225 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 280, partition: 0   
+10-10 13:40:50 259 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 282, partition: 0   
+10-10 13:40:50 288 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 284, partition: 0   
+10-10 13:40:50 330 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 286, partition: 0   
+10-10 13:40:50 353 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 288, partition: 0   
+10-10 13:40:50 406 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 290, partition: 0   
+10-10 13:40:50 479 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 292, partition: 0   
+10-10 13:40:50 616 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 294, partition: 0   
+10-10 13:40:50 672 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 296, partition: 0   
+10-10 13:40:50 716 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 298, partition: 0   
+10-10 13:40:50 743 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 300, partition: 0   
+10-10 13:40:50 839 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 302, partition: 0   
+10-10 13:40:50 899 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 304, partition: 0   
+10-10 13:40:50 970 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 306, partition: 0   
+10-10 13:40:51 010 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 308, partition: 0   
+10-10 13:40:51 056 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 310, partition: 0   
+10-10 13:40:51 144 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 312, partition: 0   
+10-10 13:40:51 196 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 314, partition: 0   
+10-10 13:40:51 265 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 316, partition: 0   
+10-10 13:40:51 362 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 318, partition: 0   
+10-10 13:40:51 464 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 320, partition: 0   
+10-10 13:40:51 545 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 322, partition: 0   
+10-10 13:40:51 632 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 324, partition: 0   
+10-10 13:40:51 688 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 326, partition: 0   
+10-10 13:40:51 709 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 328, partition: 0   
+10-10 13:40:59 465 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 330, partition: 0   
+10-10 13:40:59 598 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 332, partition: 0   
+10-10 13:40:59 712 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 334, partition: 0   
+10-10 13:40:59 791 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 336, partition: 0   
+10-10 13:40:59 867 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 338, partition: 0   
+10-10 13:40:59 941 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 340, partition: 0   
+10-10 13:41:00 044 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 342, partition: 0   
+10-10 13:41:00 099 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 344, partition: 0   
+10-10 13:41:00 162 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 346, partition: 0   
+10-10 13:41:00 240 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 348, partition: 0   
+10-10 13:41:00 281 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 350, partition: 0   
+10-10 13:41:00 324 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 352, partition: 0   
+10-10 13:41:00 396 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 354, partition: 0   
+10-10 13:41:00 476 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 356, partition: 0   
+10-10 13:41:00 533 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 358, partition: 0   
+10-10 13:41:00 589 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 360, partition: 0   
+10-10 13:41:00 696 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 362, partition: 0   
+10-10 13:41:00 763 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 364, partition: 0   
+10-10 13:41:00 875 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 366, partition: 0   
+10-10 13:41:00 990 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 368, partition: 0   
+10-10 13:41:01 081 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 370, partition: 0   
+10-10 13:41:01 165 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 372, partition: 0   
+10-10 13:41:01 229 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 374, partition: 0   
+10-10 13:41:01 278 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 376, partition: 0   
+10-10 13:41:01 326 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 378, partition: 0   
+10-10 13:41:01 365 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 380, partition: 0   
+10-10 13:41:01 409 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 382, partition: 0   
+10-10 13:41:01 488 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 384, partition: 0   
+10-10 13:41:01 537 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 386, partition: 0   
+10-10 13:41:01 582 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 388, partition: 0   
+10-10 13:41:01 690 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 390, partition: 0   
+10-10 13:41:01 796 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 392, partition: 0   
+10-10 13:41:01 846 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 394, partition: 0   
+10-10 13:41:01 891 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 396, partition: 0   
+10-10 13:41:01 936 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 398, partition: 0   
+10-10 13:41:01 979 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 400, partition: 0   
+10-10 13:41:02 012 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 402, partition: 0   
+10-10 13:41:02 053 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 404, partition: 0   
+10-10 13:41:02 084 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 406, partition: 0   
+10-10 13:41:02 122 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 408, partition: 0   
+10-10 13:41:02 180 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 410, partition: 0   
+10-10 13:41:02 264 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 412, partition: 0   
+10-10 13:41:02 308 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 414, partition: 0   
+10-10 13:41:02 348 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 416, partition: 0   
+10-10 13:41:02 381 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 418, partition: 0   
+10-10 13:41:02 427 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 420, partition: 0   
+10-10 13:41:02 472 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 422, partition: 0   
+10-10 13:41:02 512 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 424, partition: 0   
+10-10 13:41:02 563 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 426, partition: 0   
+10-10 13:41:02 617 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 428, partition: 0   
+10-10 13:41:02 670 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 430, partition: 0   
+10-10 13:41:02 707 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 432, partition: 0   
+10-10 13:41:02 762 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 434, partition: 0   
+10-10 13:41:02 780 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 436, partition: 0   
+10-10 13:41:02 830 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 438, partition: 0   
+10-10 13:41:02 854 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 440, partition: 0   
+10-10 13:41:02 914 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 442, partition: 0   
+10-10 13:41:02 954 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 444, partition: 0   
+10-10 13:41:03 005 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 446, partition: 0   
+10-10 13:41:03 033 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 448, partition: 0   
+10-10 13:41:03 076 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 450, partition: 0   
+10-10 13:41:03 093 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 452, partition: 0   
+10-10 13:41:03 163 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 454, partition: 0   
+10-10 13:41:03 206 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 456, partition: 0   
+10-10 13:41:03 248 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 458, partition: 0   
+10-10 13:41:03 271 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 460, partition: 0   
+10-10 13:41:03 321 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 462, partition: 0   
+10-10 13:41:03 372 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 464, partition: 0   
+10-10 13:41:03 434 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 466, partition: 0   
+10-10 13:41:03 464 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 468, partition: 0   
+10-10 13:41:03 495 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 470, partition: 0   
+10-10 13:41:03 538 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 472, partition: 0   
+10-10 13:41:03 565 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 474, partition: 0   
+10-10 13:41:03 602 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 476, partition: 0   
+10-10 13:41:03 644 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 478, partition: 0   
+10-10 13:41:03 690 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 480, partition: 0   
+10-10 13:41:03 739 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 482, partition: 0   
+10-10 13:41:03 775 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 484, partition: 0   
+10-10 13:41:03 806 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 486, partition: 0   
+10-10 13:41:03 862 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 488, partition: 0   
+10-10 13:41:03 908 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 490, partition: 0   
+10-10 13:41:03 946 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 492, partition: 0   
+10-10 13:41:03 993 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 494, partition: 0   
+10-10 13:41:04 032 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 496, partition: 0   
+10-10 13:41:04 070 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 498, partition: 0   
+10-10 13:41:04 174 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 500, partition: 0   
+10-10 13:41:04 232 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 502, partition: 0   
+10-10 13:41:04 275 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 504, partition: 0   
+10-10 13:41:04 310 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 506, partition: 0   
+10-10 13:41:04 341 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 508, partition: 0   
+10-10 13:41:04 376 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 510, partition: 0   
+10-10 13:41:04 410 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 512, partition: 0   
+10-10 13:41:04 450 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 514, partition: 0   
+10-10 13:41:04 506 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 516, partition: 0   
+10-10 13:41:04 532 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 518, partition: 0   
+10-10 13:41:04 576 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 520, partition: 0   
+10-10 13:41:04 596 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 522, partition: 0   
+10-10 13:41:04 626 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 524, partition: 0   
+10-10 13:41:04 657 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 526, partition: 0   
+10-10 13:41:04 690 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 528, partition: 0   
+10-10 13:41:04 754 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 530, partition: 0   
+10-10 13:41:04 796 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 532, partition: 0   
+10-10 13:41:04 829 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 534, partition: 0   
+10-10 13:41:04 862 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 536, partition: 0   
+10-10 13:41:04 896 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 538, partition: 0   
+10-10 13:41:04 934 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 540, partition: 0   
+10-10 13:41:04 988 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 542, partition: 0   
+10-10 13:41:05 031 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 544, partition: 0   
+10-10 13:41:05 072 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 546, partition: 0   
+10-10 13:41:05 098 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 548, partition: 0   
+10-10 13:41:05 130 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 550, partition: 0   
+10-10 13:41:05 157 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 552, partition: 0   
+10-10 13:41:05 206 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 554, partition: 0   
+10-10 13:41:05 270 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 556, partition: 0   
+10-10 13:41:05 306 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 558, partition: 0   
+10-10 13:41:05 351 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 560, partition: 0   
+10-10 13:41:05 397 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 562, partition: 0   
+10-10 13:41:05 443 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 564, partition: 0   
+10-10 13:41:05 514 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 566, partition: 0   
+10-10 13:41:05 567 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 568, partition: 0   
+10-10 13:41:05 626 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 570, partition: 0   
+10-10 13:41:05 681 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 572, partition: 0   
+10-10 13:41:05 710 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 574, partition: 0   
+10-10 13:41:05 752 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 576, partition: 0   
+10-10 13:41:05 798 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 578, partition: 0   
+10-10 13:41:05 820 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 580, partition: 0   
+10-10 13:41:05 841 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 582, partition: 0   
+10-10 13:41:05 863 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 584, partition: 0   
+10-10 13:41:05 884 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 586, partition: 0   
+10-10 13:41:05 934 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 588, partition: 0   
+10-10 13:41:05 982 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 590, partition: 0   
+10-10 13:41:06 033 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 592, partition: 0   
+10-10 13:41:06 072 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 594, partition: 0   
+10-10 13:41:06 093 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 596, partition: 0   
+10-10 13:41:06 114 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 598, partition: 0   
+10-10 13:41:06 133 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 600, partition: 0   
+10-10 13:41:06 167 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 602, partition: 0   
+10-10 13:41:06 218 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 604, partition: 0   
+10-10 13:41:06 258 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 606, partition: 0   
+10-10 13:41:06 295 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 608, partition: 0   
+10-10 13:41:06 336 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 610, partition: 0   
+10-10 13:41:06 378 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 612, partition: 0   
+10-10 13:41:06 419 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 614, partition: 0   
+10-10 13:41:06 473 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 616, partition: 0   
+10-10 13:41:06 515 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 618, partition: 0   
+10-10 13:41:06 569 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 620, partition: 0   
+10-10 13:41:06 621 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 622, partition: 0   
+10-10 13:41:06 663 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 624, partition: 0   
+10-10 13:41:06 713 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 626, partition: 0   
+10-10 13:41:06 752 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 628, partition: 0   
+10-10 13:41:06 804 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 630, partition: 0   
+10-10 13:41:06 837 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 632, partition: 0   
+10-10 13:41:06 871 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 634, partition: 0   
+10-10 13:41:06 917 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 636, partition: 0   
+10-10 13:41:06 962 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 638, partition: 0   
+10-10 13:41:07 032 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 640, partition: 0   
+10-10 13:41:07 089 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 642, partition: 0   
+10-10 13:41:07 152 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 644, partition: 0   
+10-10 13:41:07 216 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 646, partition: 0   
+10-10 13:41:07 244 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 648, partition: 0   
+10-10 13:41:07 300 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 650, partition: 0   
+10-10 13:41:07 334 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 652, partition: 0   
+10-10 13:41:07 357 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 654, partition: 0   
+10-10 13:41:07 383 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 656, partition: 0   
+10-10 13:41:07 427 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 658, partition: 0   
+10-10 13:41:07 481 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 660, partition: 0   
+10-10 13:41:07 528 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 662, partition: 0   
+10-10 13:41:07 575 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 664, partition: 0   
+10-10 13:41:07 619 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 666, partition: 0   
+10-10 13:41:07 658 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 668, partition: 0   
+10-10 13:41:07 709 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 670, partition: 0   
+10-10 13:41:07 783 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 672, partition: 0   
+10-10 13:41:07 807 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 674, partition: 0   
+10-10 13:41:07 832 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 676, partition: 0   
+10-10 13:41:07 896 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 678, partition: 0   
+10-10 13:41:07 950 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 680, partition: 0   
+10-10 13:41:07 980 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 682, partition: 0   
+10-10 13:41:08 028 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 684, partition: 0   
+10-10 13:41:08 066 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 686, partition: 0   
+10-10 13:41:08 105 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 688, partition: 0   
+10-10 13:41:08 144 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 690, partition: 0   
+10-10 13:41:08 198 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 692, partition: 0   
+10-10 13:41:08 241 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 694, partition: 0   
+10-10 13:41:08 280 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 696, partition: 0   
+10-10 13:41:08 348 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 698, partition: 0   
+10-10 13:41:08 365 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 700, partition: 0   
+10-10 13:41:08 409 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 702, partition: 0   
+10-10 13:41:08 474 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 704, partition: 0   
+10-10 13:41:08 516 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 706, partition: 0   
+10-10 13:41:08 578 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 708, partition: 0   
+10-10 13:41:08 598 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 710, partition: 0   
+10-10 13:41:08 646 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 712, partition: 0   
+10-10 13:41:08 688 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 714, partition: 0   
+10-10 13:41:08 723 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 716, partition: 0   
+10-10 13:41:08 762 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 718, partition: 0   
+10-10 13:41:08 799 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 720, partition: 0   
+10-10 13:41:08 833 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 722, partition: 0   
+10-10 13:41:08 883 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 724, partition: 0   
+10-10 13:41:08 914 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 726, partition: 0   
+10-10 13:41:08 944 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 728, partition: 0   
+10-10 13:41:08 995 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 730, partition: 0   
+10-10 13:41:09 030 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 732, partition: 0   
+10-10 13:41:09 062 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 734, partition: 0   
+10-10 13:41:09 109 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 736, partition: 0   
+10-10 13:41:09 162 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 738, partition: 0   
+10-10 13:41:09 210 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 740, partition: 0   
+10-10 13:41:09 248 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 742, partition: 0   
+10-10 13:41:09 290 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 744, partition: 0   
+10-10 13:41:09 307 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 746, partition: 0   
+10-10 13:41:09 367 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 748, partition: 0   
+10-10 13:41:09 416 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 750, partition: 0   
+10-10 13:41:09 439 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 752, partition: 0   
+10-10 13:41:09 459 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 754, partition: 0   
+10-10 13:41:09 496 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 756, partition: 0   
+10-10 13:41:09 527 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 758, partition: 0   
+10-10 13:41:09 573 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 760, partition: 0   
+10-10 13:41:09 619 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 762, partition: 0   
+10-10 13:41:09 664 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 764, partition: 0   
+10-10 13:41:09 698 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 766, partition: 0   
+10-10 13:41:09 726 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 768, partition: 0   
+10-10 13:41:09 773 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 770, partition: 0   
+10-10 13:41:09 828 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 772, partition: 0   
+10-10 13:41:09 855 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 774, partition: 0   
+10-10 13:41:09 901 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 776, partition: 0   
+10-10 13:41:09 916 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 778, partition: 0   
+10-10 13:41:09 935 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 780, partition: 0   
+10-10 13:41:09 980 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 782, partition: 0   
+10-10 13:41:10 030 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 784, partition: 0   
+10-10 13:41:10 085 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 786, partition: 0   
+10-10 13:41:10 110 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 788, partition: 0   
+10-10 13:41:10 131 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 790, partition: 0   
+10-10 13:41:10 153 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 792, partition: 0   
+10-10 13:41:10 196 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 794, partition: 0   
+10-10 13:41:10 213 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 796, partition: 0   
+10-10 13:41:10 268 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 798, partition: 0   
+10-10 13:41:10 312 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 800, partition: 0   
+10-10 13:41:10 345 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 802, partition: 0   
+10-10 13:41:10 384 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 804, partition: 0   
+10-10 13:41:10 418 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 806, partition: 0   
+10-10 13:41:10 457 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 808, partition: 0   
+10-10 13:41:10 469 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 810, partition: 0   
+10-10 13:41:10 496 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 812, partition: 0   
+10-10 13:41:10 566 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 814, partition: 0   
+10-10 13:41:10 614 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 816, partition: 0   
+10-10 13:41:10 659 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 818, partition: 0   
+10-10 13:41:10 712 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 820, partition: 0   
+10-10 13:41:10 746 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 822, partition: 0   
+10-10 13:41:10 779 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 824, partition: 0   
+10-10 13:41:10 815 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 826, partition: 0   
+10-10 13:41:10 854 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 828, partition: 0   
+10-10 13:41:10 894 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 830, partition: 0   
+10-10 13:41:10 933 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 832, partition: 0   
+10-10 13:41:10 978 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 834, partition: 0   
+10-10 13:41:11 003 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 836, partition: 0   
+10-10 13:41:11 029 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 838, partition: 0   
+10-10 13:41:11 070 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 840, partition: 0   
+10-10 13:41:11 135 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 842, partition: 0   
+10-10 13:41:11 192 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 844, partition: 0   
+10-10 13:41:11 225 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 846, partition: 0   
+10-10 13:41:11 265 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 848, partition: 0   
+10-10 13:41:11 305 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 850, partition: 0   
+10-10 13:41:11 361 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 852, partition: 0   
+10-10 13:41:11 421 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 854, partition: 0   
+10-10 13:41:11 485 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 856, partition: 0   
+10-10 13:41:11 506 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 858, partition: 0   
+10-10 13:41:11 554 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 860, partition: 0   
+10-10 13:41:11 586 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 862, partition: 0   
+10-10 13:41:11 627 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 864, partition: 0   
+10-10 13:41:11 663 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 866, partition: 0   
+10-10 13:41:11 703 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 868, partition: 0   
+10-10 13:41:11 741 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 870, partition: 0   
+10-10 13:41:11 784 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 872, partition: 0   
+10-10 13:41:11 836 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 874, partition: 0   
+10-10 13:41:11 873 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 876, partition: 0   
+10-10 13:41:11 911 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 878, partition: 0   
+10-10 13:41:11 950 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 880, partition: 0   
+10-10 13:41:11 992 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 882, partition: 0   
+10-10 13:41:12 030 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 884, partition: 0   
+10-10 13:41:12 073 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 886, partition: 0   
+10-10 13:41:12 115 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 888, partition: 0   
+10-10 13:41:12 172 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 890, partition: 0   
+10-10 13:41:12 186 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 892, partition: 0   
+10-10 13:41:12 226 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 894, partition: 0   
+10-10 13:41:12 257 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 896, partition: 0   
+10-10 13:41:12 309 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 898, partition: 0   
+10-10 13:41:12 345 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 900, partition: 0   
+10-10 13:41:12 384 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 902, partition: 0   
+10-10 13:41:12 427 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 904, partition: 0   
+10-10 13:41:12 468 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 906, partition: 0   
+10-10 13:41:12 508 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 908, partition: 0   
+10-10 13:41:12 549 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 910, partition: 0   
+10-10 13:41:12 599 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 912, partition: 0   
+10-10 13:41:12 641 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 914, partition: 0   
+10-10 13:41:12 692 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 916, partition: 0   
+10-10 13:41:12 726 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 918, partition: 0   
+10-10 13:41:12 755 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 920, partition: 0   
+10-10 13:41:12 818 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 922, partition: 0   
+10-10 13:41:12 873 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 924, partition: 0   
+10-10 13:41:12 911 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 926, partition: 0   
+10-10 13:41:12 935 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 928, partition: 0   
+10-10 13:41:12 993 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 930, partition: 0   
+10-10 13:41:13 060 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 932, partition: 0   
+10-10 13:41:13 115 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 934, partition: 0   
+10-10 13:41:13 161 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 936, partition: 0   
+10-10 13:41:13 197 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 938, partition: 0   
+10-10 13:41:13 271 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 940, partition: 0   
+10-10 13:41:13 290 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 942, partition: 0   
+10-10 13:41:13 322 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 944, partition: 0   
+10-10 13:41:13 337 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 946, partition: 0   
+10-10 13:41:13 390 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 948, partition: 0   
+10-10 13:41:13 407 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 950, partition: 0   
+10-10 13:41:13 440 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 952, partition: 0   
+10-10 13:41:13 507 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 954, partition: 0   
+10-10 13:41:13 522 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 956, partition: 0   
+10-10 13:41:13 560 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 958, partition: 0   
+10-10 13:41:13 597 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 960, partition: 0   
+10-10 13:41:13 664 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 962, partition: 0   
+10-10 13:41:13 722 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 964, partition: 0   
+10-10 13:41:13 741 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 966, partition: 0   
+10-10 13:41:13 765 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 968, partition: 0   
+10-10 13:41:13 797 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 970, partition: 0   
+10-10 13:41:13 842 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 972, partition: 0   
+10-10 13:41:13 863 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 974, partition: 0   
+10-10 13:41:13 921 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 976, partition: 0   
+10-10 13:41:13 965 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 978, partition: 0   
+10-10 13:41:14 001 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 980, partition: 0   
+10-10 13:41:14 033 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 982, partition: 0   
+10-10 13:41:14 085 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 984, partition: 0   
+10-10 13:41:14 116 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 986, partition: 0   
+10-10 13:41:14 164 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 988, partition: 0   
+10-10 13:41:14 208 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 990, partition: 0   
+10-10 13:41:14 222 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 992, partition: 0   
+10-10 13:41:14 292 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 994, partition: 0   
+10-10 13:41:14 355 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 996, partition: 0   
+10-10 13:41:14 388 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 998, partition: 0   
+10-10 13:41:14 414 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1000, partition: 0   
+10-10 13:41:14 444 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1002, partition: 0   
+10-10 13:41:14 469 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1004, partition: 0   
+10-10 13:41:14 533 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1006, partition: 0   
+10-10 13:41:14 576 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1008, partition: 0   
+10-10 13:41:14 620 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1010, partition: 0   
+10-10 13:41:14 657 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1012, partition: 0   
+10-10 13:41:14 673 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1014, partition: 0   
+10-10 13:41:14 714 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1016, partition: 0   
+10-10 13:41:14 756 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1018, partition: 0   
+10-10 13:41:14 783 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1020, partition: 0   
+10-10 13:41:14 809 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1022, partition: 0   
+10-10 13:41:14 867 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1024, partition: 0   
+10-10 13:41:14 906 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1026, partition: 0   
+10-10 13:41:14 921 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1028, partition: 0   
+10-10 13:41:14 940 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1030, partition: 0   
+10-10 13:41:14 988 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1032, partition: 0   
+10-10 13:41:15 013 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1034, partition: 0   
+10-10 13:41:15 052 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1036, partition: 0   
+10-10 13:41:15 106 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1038, partition: 0   
+10-10 13:41:15 141 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1040, partition: 0   
+10-10 13:41:15 184 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1042, partition: 0   
+10-10 13:41:15 206 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1044, partition: 0   
+10-10 13:41:15 266 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1046, partition: 0   
+10-10 13:41:15 308 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1048, partition: 0   
+10-10 13:41:15 344 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1050, partition: 0   
+10-10 13:41:15 375 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1052, partition: 0   
+10-10 13:41:15 411 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1054, partition: 0   
+10-10 13:41:15 457 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1056, partition: 0   
+10-10 13:41:15 492 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1058, partition: 0   
+10-10 13:41:15 526 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1060, partition: 0   
+10-10 13:41:15 560 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1062, partition: 0   
+10-10 13:41:15 599 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1064, partition: 0   
+10-10 13:41:15 644 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1066, partition: 0   
+10-10 13:41:15 676 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1068, partition: 0   
+10-10 13:41:15 711 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1070, partition: 0   
+10-10 13:41:15 741 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1072, partition: 0   
+10-10 13:41:15 785 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1074, partition: 0   
+10-10 13:41:15 830 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1076, partition: 0   
+10-10 13:41:15 864 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1078, partition: 0   
+10-10 13:41:15 899 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1080, partition: 0   
+10-10 13:41:15 933 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1082, partition: 0   
+10-10 13:41:15 978 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1084, partition: 0   
+10-10 13:41:16 017 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1086, partition: 0   
+10-10 13:41:16 056 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1088, partition: 0   
+10-10 13:41:16 100 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1090, partition: 0   
+10-10 13:41:16 150 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1092, partition: 0   
+10-10 13:41:16 200 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1094, partition: 0   
+10-10 13:41:16 245 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1096, partition: 0   
+10-10 13:41:16 278 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1098, partition: 0   
+10-10 13:41:16 296 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1100, partition: 0   
+10-10 13:41:16 366 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1102, partition: 0   
+10-10 13:41:16 391 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1104, partition: 0   
+10-10 13:41:16 439 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1106, partition: 0   
+10-10 13:41:16 477 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1108, partition: 0   
+10-10 13:41:16 510 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1110, partition: 0   
+10-10 13:41:16 547 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1112, partition: 0   
+10-10 13:41:16 593 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1114, partition: 0   
+10-10 13:41:16 650 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1116, partition: 0   
+10-10 13:41:16 684 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1118, partition: 0   
+10-10 13:41:16 723 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1120, partition: 0   
+10-10 13:41:16 764 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1122, partition: 0   
+10-10 13:41:16 809 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1124, partition: 0   
+10-10 13:41:16 863 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1126, partition: 0   
+10-10 13:41:16 897 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1128, partition: 0   
+10-10 13:41:16 933 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1130, partition: 0   
+10-10 13:41:16 969 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1132, partition: 0   
+10-10 13:41:17 002 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1134, partition: 0   
+10-10 13:41:17 046 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1136, partition: 0   
+10-10 13:41:17 091 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1138, partition: 0   
+10-10 13:41:17 106 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1140, partition: 0   
+10-10 13:41:17 146 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1142, partition: 0   
+10-10 13:41:17 184 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1144, partition: 0   
+10-10 13:41:17 215 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1146, partition: 0   
+10-10 13:41:17 248 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1148, partition: 0   
+10-10 13:41:17 297 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1150, partition: 0   
+10-10 13:41:17 338 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1152, partition: 0   
+10-10 13:41:17 373 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1154, partition: 0   
+10-10 13:41:17 406 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1156, partition: 0   
+10-10 13:41:17 440 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1158, partition: 0   
+10-10 13:41:17 477 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1160, partition: 0   
+10-10 13:41:17 513 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1162, partition: 0   
+10-10 13:41:17 562 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1164, partition: 0   
+10-10 13:41:17 595 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1166, partition: 0   
+10-10 13:41:17 634 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1168, partition: 0   
+10-10 13:41:17 679 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1170, partition: 0   
+10-10 13:41:17 726 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1172, partition: 0   
+10-10 13:41:17 771 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1174, partition: 0   
+10-10 13:41:17 811 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1176, partition: 0   
+10-10 13:41:17 845 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1178, partition: 0   
+10-10 13:41:17 872 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1180, partition: 0   
+10-10 13:41:17 914 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1182, partition: 0   
+10-10 13:41:17 952 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1184, partition: 0   
+10-10 13:41:17 990 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1186, partition: 0   
+10-10 13:41:18 026 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1188, partition: 0   
+10-10 13:41:18 063 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1190, partition: 0   
+10-10 13:41:18 105 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1192, partition: 0   
+10-10 13:41:18 147 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1194, partition: 0   
+10-10 13:41:18 164 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1196, partition: 0   
+10-10 13:41:18 212 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1198, partition: 0   
+10-10 13:41:18 262 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1200, partition: 0   
+10-10 13:41:18 278 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1202, partition: 0   
+10-10 13:41:18 293 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1204, partition: 0   
+10-10 13:41:18 307 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1206, partition: 0   
+10-10 13:41:18 346 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1208, partition: 0   
+10-10 13:41:18 406 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1210, partition: 0   
+10-10 13:41:18 443 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1212, partition: 0   
+10-10 13:41:18 491 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1214, partition: 0   
+10-10 13:41:18 505 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1216, partition: 0   
+10-10 13:41:18 563 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1218, partition: 0   
+10-10 13:41:18 584 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1220, partition: 0   
+10-10 13:41:18 642 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1222, partition: 0   
+10-10 13:41:18 702 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1224, partition: 0   
+10-10 13:41:18 746 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1226, partition: 0   
+10-10 13:41:18 763 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1228, partition: 0   
+10-10 13:41:18 814 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1230, partition: 0   
+10-10 13:41:18 860 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1232, partition: 0   
+10-10 13:41:18 909 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1234, partition: 0   
+10-10 13:41:18 933 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1236, partition: 0   
+10-10 13:41:18 948 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1238, partition: 0   
+10-10 13:41:18 986 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1240, partition: 0   
+10-10 13:41:19 000 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1242, partition: 0   
+10-10 13:41:19 015 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1244, partition: 0   
+10-10 13:41:19 030 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1246, partition: 0   
+10-10 13:41:19 084 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1248, partition: 0   
+10-10 13:41:19 156 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1250, partition: 0   
+10-10 13:41:19 191 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1252, partition: 0   
+10-10 13:41:19 225 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1254, partition: 0   
+10-10 13:41:19 264 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1256, partition: 0   
+10-10 13:41:19 300 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1258, partition: 0   
+10-10 13:41:19 338 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1260, partition: 0   
+10-10 13:41:19 356 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1262, partition: 0   
+10-10 13:41:19 398 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1264, partition: 0   
+10-10 13:41:19 415 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1266, partition: 0   
+10-10 13:41:19 457 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1268, partition: 0   
+10-10 13:41:19 503 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1270, partition: 0   
+10-10 13:41:19 550 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1272, partition: 0   
+10-10 13:41:19 596 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1274, partition: 0   
+10-10 13:41:19 644 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1276, partition: 0   
+10-10 13:41:19 679 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1278, partition: 0   
+10-10 13:41:19 732 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1280, partition: 0   
+10-10 13:41:19 750 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1282, partition: 0   
+10-10 13:41:19 767 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1284, partition: 0   
+10-10 13:41:19 818 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1286, partition: 0   
+10-10 13:41:19 857 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1288, partition: 0   
+10-10 13:41:19 897 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1290, partition: 0   
+10-10 13:41:19 931 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1292, partition: 0   
+10-10 13:41:19 969 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1294, partition: 0   
+10-10 13:41:20 008 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1296, partition: 0   
+10-10 13:41:20 044 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1298, partition: 0   
+10-10 13:41:20 084 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1300, partition: 0   
+10-10 13:41:20 117 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1302, partition: 0   
+10-10 13:41:20 153 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1304, partition: 0   
+10-10 13:41:20 196 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1306, partition: 0   
+10-10 13:41:20 253 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1308, partition: 0   
+10-10 13:41:20 297 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1310, partition: 0   
+10-10 13:41:20 340 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1312, partition: 0   
+10-10 13:41:20 380 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1314, partition: 0   
+10-10 13:41:20 425 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1316, partition: 0   
+10-10 13:41:20 474 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1318, partition: 0   
+10-10 13:41:20 519 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1320, partition: 0   
+10-10 13:41:20 553 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1322, partition: 0   
+10-10 13:41:20 588 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1324, partition: 0   
+10-10 13:41:20 624 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1326, partition: 0   
+10-10 13:41:20 656 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1328, partition: 0   
+10-10 13:41:20 705 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1330, partition: 0   
+10-10 13:41:20 742 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1332, partition: 0   
+10-10 13:41:20 776 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1334, partition: 0   
+10-10 13:41:20 808 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1336, partition: 0   
+10-10 13:41:20 841 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1338, partition: 0   
+10-10 13:41:20 882 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1340, partition: 0   
+10-10 13:41:20 919 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1342, partition: 0   
+10-10 13:41:20 960 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1344, partition: 0   
+10-10 13:41:20 990 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1346, partition: 0   
+10-10 13:41:21 025 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1348, partition: 0   
+10-10 13:41:21 055 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1350, partition: 0   
+10-10 13:41:21 089 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1352, partition: 0   
+10-10 13:41:21 126 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1354, partition: 0   
+10-10 13:41:21 164 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1356, partition: 0   
+10-10 13:41:21 196 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1358, partition: 0   
+10-10 13:41:21 229 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1360, partition: 0   
+10-10 13:41:21 266 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1362, partition: 0   
+10-10 13:41:21 313 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1364, partition: 0   
+10-10 13:41:21 358 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1366, partition: 0   
+10-10 13:41:21 383 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1368, partition: 0   
+10-10 13:41:21 423 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1370, partition: 0   
+10-10 13:41:21 435 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1372, partition: 0   
+10-10 13:41:21 481 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1374, partition: 0   
+10-10 13:41:21 496 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1376, partition: 0   
+10-10 13:41:21 549 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1378, partition: 0   
+10-10 13:41:21 581 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1380, partition: 0   
+10-10 13:41:21 607 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1382, partition: 0   
+10-10 13:41:21 641 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1384, partition: 0   
+10-10 13:41:21 656 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1386, partition: 0   
+10-10 13:41:21 696 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1388, partition: 0   
+10-10 13:41:21 738 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1390, partition: 0   
+10-10 13:41:21 782 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1392, partition: 0   
+10-10 13:41:21 828 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1394, partition: 0   
+10-10 13:41:21 853 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1396, partition: 0   
+10-10 13:41:21 894 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1398, partition: 0   
+10-10 13:41:21 941 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1400, partition: 0   
+10-10 13:41:21 986 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1402, partition: 0   
+10-10 13:41:22 042 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1404, partition: 0   
+10-10 13:41:22 090 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1406, partition: 0   
+10-10 13:41:22 138 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1408, partition: 0   
+10-10 13:41:22 183 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1410, partition: 0   
+10-10 13:41:22 231 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1412, partition: 0   
+10-10 13:41:22 283 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1414, partition: 0   
+10-10 13:41:22 301 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1416, partition: 0   
+10-10 13:41:22 343 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1418, partition: 0   
+10-10 13:41:22 387 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1420, partition: 0   
+10-10 13:41:22 434 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1422, partition: 0   
+10-10 13:41:22 494 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1424, partition: 0   
+10-10 13:41:22 509 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1426, partition: 0   
+10-10 13:41:22 554 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1428, partition: 0   
+10-10 13:41:22 589 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1430, partition: 0   
+10-10 13:41:22 633 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1432, partition: 0   
+10-10 13:41:22 662 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1434, partition: 0   
+10-10 13:41:22 717 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1436, partition: 0   
+10-10 13:41:22 734 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1438, partition: 0   
+10-10 13:41:22 752 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1440, partition: 0   
+10-10 13:41:22 794 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1442, partition: 0   
+10-10 13:41:22 812 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1444, partition: 0   
+10-10 13:41:22 833 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1446, partition: 0   
+10-10 13:41:22 848 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1448, partition: 0   
+10-10 13:41:22 900 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1450, partition: 0   
+10-10 13:41:22 945 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1452, partition: 0   
+10-10 13:41:22 982 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1454, partition: 0   
+10-10 13:41:23 022 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1456, partition: 0   
+10-10 13:41:23 080 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1458, partition: 0   
+10-10 13:41:23 125 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1460, partition: 0   
+10-10 13:41:23 166 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1462, partition: 0   
+10-10 13:41:23 199 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1464, partition: 0   
+10-10 13:41:23 242 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1466, partition: 0   
+10-10 13:41:23 274 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1468, partition: 0   
+10-10 13:41:23 289 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1470, partition: 0   
+10-10 13:41:23 306 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1472, partition: 0   
+10-10 13:41:23 326 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1474, partition: 0   
+10-10 13:41:23 377 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1476, partition: 0   
+10-10 13:41:23 419 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1478, partition: 0   
+10-10 13:41:23 459 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1480, partition: 0   
+10-10 13:41:23 495 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1482, partition: 0   
+10-10 13:41:23 532 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1484, partition: 0   
+10-10 13:41:23 582 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1486, partition: 0   
+10-10 13:41:23 633 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1488, partition: 0   
+10-10 13:41:23 668 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1490, partition: 0   
+10-10 13:41:23 705 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1492, partition: 0   
+10-10 13:41:23 734 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1494, partition: 0   
+10-10 13:41:23 781 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1496, partition: 0   
+10-10 13:41:23 829 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1498, partition: 0   
+10-10 13:41:23 847 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1500, partition: 0   
+10-10 13:41:23 887 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1502, partition: 0   
+10-10 13:41:23 929 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1504, partition: 0   
+10-10 13:41:23 980 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1506, partition: 0   
+10-10 13:41:24 025 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1508, partition: 0   
+10-10 13:41:24 060 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1510, partition: 0   
+10-10 13:41:24 095 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1512, partition: 0   
+10-10 13:41:24 127 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1514, partition: 0   
+10-10 13:41:24 159 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1516, partition: 0   
+10-10 13:41:24 204 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1518, partition: 0   
+10-10 13:41:24 241 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1520, partition: 0   
+10-10 13:41:24 265 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1522, partition: 0   
+10-10 13:41:24 310 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1524, partition: 0   
+10-10 13:41:24 337 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1526, partition: 0   
+10-10 13:41:24 365 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1528, partition: 0   
+10-10 13:41:24 406 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1530, partition: 0   
+10-10 13:41:24 462 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1532, partition: 0   
+10-10 13:41:24 505 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1534, partition: 0   
+10-10 13:41:24 542 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1536, partition: 0   
+10-10 13:41:24 576 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1538, partition: 0   
+10-10 13:41:24 612 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1540, partition: 0   
+10-10 13:41:24 679 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1542, partition: 0   
+10-10 13:41:24 699 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1544, partition: 0   
+10-10 13:41:24 718 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1546, partition: 0   
+10-10 13:41:24 762 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1548, partition: 0   
+10-10 13:41:24 793 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1550, partition: 0   
+10-10 13:41:24 839 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1552, partition: 0   
+10-10 13:41:24 889 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1554, partition: 0   
+10-10 13:41:24 914 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1556, partition: 0   
+10-10 13:41:24 934 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1558, partition: 0   
+10-10 13:41:24 969 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1560, partition: 0   
+10-10 13:41:25 016 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1562, partition: 0   
+10-10 13:41:25 065 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1564, partition: 0   
+10-10 13:41:25 110 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1566, partition: 0   
+10-10 13:41:25 146 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1568, partition: 0   
+10-10 13:41:25 185 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1570, partition: 0   
+10-10 13:41:25 226 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1572, partition: 0   
+10-10 13:41:25 262 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1574, partition: 0   
+10-10 13:41:25 327 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1576, partition: 0   
+10-10 13:41:25 361 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1578, partition: 0   
+10-10 13:41:25 380 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1580, partition: 0   
+10-10 13:41:25 421 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1582, partition: 0   
+10-10 13:41:25 459 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1584, partition: 0   
+10-10 13:41:25 500 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1586, partition: 0   
+10-10 13:41:25 551 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1588, partition: 0   
+10-10 13:41:25 613 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1590, partition: 0   
+10-10 13:41:25 652 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1592, partition: 0   
+10-10 13:41:25 686 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1594, partition: 0   
+10-10 13:41:25 728 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1596, partition: 0   
+10-10 13:41:25 743 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1598, partition: 0   
+10-10 13:41:25 792 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1600, partition: 0   
+10-10 13:41:25 809 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1602, partition: 0   
+10-10 13:41:25 843 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1604, partition: 0   
+10-10 13:41:25 888 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1606, partition: 0   
+10-10 13:41:25 908 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1608, partition: 0   
+10-10 13:41:25 944 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1610, partition: 0   
+10-10 13:41:26 013 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1612, partition: 0   
+10-10 13:41:26 068 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1614, partition: 0   
+10-10 13:41:26 106 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1616, partition: 0   
+10-10 13:41:26 141 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1618, partition: 0   
+10-10 13:41:26 175 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1620, partition: 0   
+10-10 13:41:26 218 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1622, partition: 0   
+10-10 13:41:26 261 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1624, partition: 0   
+10-10 13:41:26 282 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1626, partition: 0   
+10-10 13:41:26 301 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1628, partition: 0   
+10-10 13:41:26 345 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1630, partition: 0   
+10-10 13:41:26 367 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1632, partition: 0   
+10-10 13:41:26 382 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1634, partition: 0   
+10-10 13:41:26 399 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1636, partition: 0   
+10-10 13:41:26 438 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1638, partition: 0   
+10-10 13:41:26 485 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1640, partition: 0   
+10-10 13:41:26 541 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1642, partition: 0   
+10-10 13:41:26 577 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1644, partition: 0   
+10-10 13:41:26 617 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1646, partition: 0   
+10-10 13:41:26 662 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1648, partition: 0   
+10-10 13:41:26 704 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1650, partition: 0   
+10-10 13:41:26 754 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1652, partition: 0   
+10-10 13:41:26 797 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1654, partition: 0   
+10-10 13:41:26 832 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1656, partition: 0   
+10-10 13:41:26 865 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1658, partition: 0   
+10-10 13:41:26 908 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1660, partition: 0   
+10-10 13:41:26 940 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1662, partition: 0   
+10-10 13:41:26 981 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1664, partition: 0   
+10-10 13:41:27 015 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1666, partition: 0   
+10-10 13:41:27 053 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1668, partition: 0   
+10-10 13:41:27 095 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1670, partition: 0   
+10-10 13:41:27 129 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1672, partition: 0   
+10-10 13:41:27 171 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1674, partition: 0   
+10-10 13:41:27 205 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1676, partition: 0   
+10-10 13:41:27 241 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1678, partition: 0   
+10-10 13:41:27 280 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1680, partition: 0   
+10-10 13:41:27 322 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1682, partition: 0   
+10-10 13:41:27 362 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1684, partition: 0   
+10-10 13:41:27 388 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1686, partition: 0   
+10-10 13:41:27 411 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1688, partition: 0   
+10-10 13:41:27 425 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1690, partition: 0   
+10-10 13:41:27 443 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1692, partition: 0   
+10-10 13:41:27 480 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1694, partition: 0   
+10-10 13:41:27 536 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1696, partition: 0   
+10-10 13:41:27 576 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1698, partition: 0   
+10-10 13:41:27 620 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1700, partition: 0   
+10-10 13:41:27 659 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1702, partition: 0   
+10-10 13:41:27 693 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1704, partition: 0   
+10-10 13:41:27 730 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1706, partition: 0   
+10-10 13:41:27 771 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1708, partition: 0   
+10-10 13:41:27 804 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1710, partition: 0   
+10-10 13:41:27 845 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1712, partition: 0   
+10-10 13:41:27 882 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1714, partition: 0   
+10-10 13:41:27 920 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1716, partition: 0   
+10-10 13:41:27 954 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1718, partition: 0   
+10-10 13:41:27 992 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1720, partition: 0   
+10-10 13:41:28 058 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1722, partition: 0   
+10-10 13:41:28 095 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1724, partition: 0   
+10-10 13:41:28 134 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1726, partition: 0   
+10-10 13:41:28 171 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1728, partition: 0   
+10-10 13:41:28 227 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1730, partition: 0   
+10-10 13:41:28 267 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1732, partition: 0   
+10-10 13:41:28 297 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1734, partition: 0   
+10-10 13:41:28 338 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1736, partition: 0   
+10-10 13:41:28 384 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1738, partition: 0   
+10-10 13:41:28 401 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1740, partition: 0   
+10-10 13:41:28 426 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1742, partition: 0   
+10-10 13:41:28 464 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1744, partition: 0   
+10-10 13:41:28 515 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1746, partition: 0   
+10-10 13:41:28 534 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1748, partition: 0   
+10-10 13:41:28 572 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1750, partition: 0   
+10-10 13:41:28 619 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1752, partition: 0   
+10-10 13:41:28 637 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1754, partition: 0   
+10-10 13:41:28 697 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1756, partition: 0   
+10-10 13:41:28 727 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1758, partition: 0   
+10-10 13:41:28 742 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1760, partition: 0   
+10-10 13:41:28 756 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1762, partition: 0   
+10-10 13:41:28 801 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1764, partition: 0   
+10-10 13:41:28 812 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1766, partition: 0   
+10-10 13:41:28 824 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1768, partition: 0   
+10-10 13:41:28 864 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1770, partition: 0   
+10-10 13:41:28 918 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1772, partition: 0   
+10-10 13:41:28 954 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1774, partition: 0   
+10-10 13:41:28 969 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1776, partition: 0   
+10-10 13:41:28 987 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1778, partition: 0   
+10-10 13:41:29 026 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1780, partition: 0   
+10-10 13:41:29 073 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1782, partition: 0   
+10-10 13:41:29 124 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1784, partition: 0   
+10-10 13:41:29 173 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1786, partition: 0   
+10-10 13:41:29 214 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1788, partition: 0   
+10-10 13:41:29 266 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1790, partition: 0   
+10-10 13:41:29 307 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1792, partition: 0   
+10-10 13:41:29 341 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1794, partition: 0   
+10-10 13:41:29 404 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1796, partition: 0   
+10-10 13:41:29 435 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1798, partition: 0   
+10-10 13:41:29 478 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1800, partition: 0   
+10-10 13:41:29 501 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1802, partition: 0   
+10-10 13:41:29 567 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1804, partition: 0   
+10-10 13:41:29 613 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1806, partition: 0   
+10-10 13:41:29 666 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1808, partition: 0   
+10-10 13:41:29 702 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1810, partition: 0   
+10-10 13:41:29 766 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1812, partition: 0   
+10-10 13:41:29 826 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1814, partition: 0   
+10-10 13:41:29 879 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1816, partition: 0   
+10-10 13:41:29 914 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1818, partition: 0   
+10-10 13:41:29 949 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1820, partition: 0   
+10-10 13:41:30 000 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1822, partition: 0   
+10-10 13:41:30 046 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1824, partition: 0   
+10-10 13:41:30 102 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1826, partition: 0   
+10-10 13:41:30 154 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1828, partition: 0   
+10-10 13:41:30 185 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1830, partition: 0   
+10-10 13:41:30 237 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1832, partition: 0   
+10-10 13:41:30 272 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1834, partition: 0   
+10-10 13:41:30 308 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1836, partition: 0   
+10-10 13:41:30 342 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1838, partition: 0   
+10-10 13:41:30 378 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1840, partition: 0   
+10-10 13:41:30 412 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1842, partition: 0   
+10-10 13:41:30 463 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1844, partition: 0   
+10-10 13:41:30 510 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1846, partition: 0   
+10-10 13:41:30 545 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1848, partition: 0   
+10-10 13:41:30 581 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1850, partition: 0   
+10-10 13:41:30 633 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1852, partition: 0   
+10-10 13:41:30 683 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1854, partition: 0   
+10-10 13:41:30 727 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1856, partition: 0   
+10-10 13:41:30 746 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1858, partition: 0   
+10-10 13:41:30 770 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1860, partition: 0   
+10-10 13:41:30 808 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1862, partition: 0   
+10-10 13:41:30 832 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1864, partition: 0   
+10-10 13:41:30 857 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1866, partition: 0   
+10-10 13:41:30 912 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1868, partition: 0   
+10-10 13:41:30 957 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1870, partition: 0   
+10-10 13:41:31 001 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1872, partition: 0   
+10-10 13:41:31 037 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1874, partition: 0   
+10-10 13:41:31 078 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1876, partition: 0   
+10-10 13:41:31 127 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1878, partition: 0   
+10-10 13:41:31 168 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1880, partition: 0   
+10-10 13:41:31 186 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1882, partition: 0   
+10-10 13:41:31 223 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1884, partition: 0   
+10-10 13:41:31 266 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1886, partition: 0   
+10-10 13:41:31 304 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1888, partition: 0   
+10-10 13:41:31 352 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1890, partition: 0   
+10-10 13:41:31 393 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1892, partition: 0   
+10-10 13:41:31 433 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1894, partition: 0   
+10-10 13:41:31 470 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1896, partition: 0   
+10-10 13:41:31 514 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1898, partition: 0   
+10-10 13:41:31 557 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1900, partition: 0   
+10-10 13:41:31 609 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1902, partition: 0   
+10-10 13:41:31 639 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1904, partition: 0   
+10-10 13:41:31 681 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1906, partition: 0   
+10-10 13:41:31 720 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1908, partition: 0   
+10-10 13:41:31 762 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1910, partition: 0   
+10-10 13:41:31 798 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1912, partition: 0   
+10-10 13:41:31 833 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1914, partition: 0   
+10-10 13:41:31 867 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1916, partition: 0   
+10-10 13:41:31 904 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1918, partition: 0   
+10-10 13:41:31 941 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1920, partition: 0   
+10-10 13:41:31 977 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1922, partition: 0   
+10-10 13:41:32 016 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1924, partition: 0   
+10-10 13:41:32 038 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1926, partition: 0   
+10-10 13:41:32 076 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1928, partition: 0   
+10-10 13:41:32 115 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1930, partition: 0   
+10-10 13:41:32 175 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1932, partition: 0   
+10-10 13:41:32 234 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1934, partition: 0   
+10-10 13:41:32 286 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1936, partition: 0   
+10-10 13:41:32 305 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1938, partition: 0   
+10-10 13:41:32 349 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1940, partition: 0   
+10-10 13:41:32 386 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1942, partition: 0   
+10-10 13:41:32 435 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1944, partition: 0   
+10-10 13:41:32 485 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1946, partition: 0   
+10-10 13:41:32 507 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1948, partition: 0   
+10-10 13:41:32 548 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1950, partition: 0   
+10-10 13:41:32 603 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1952, partition: 0   
+10-10 13:41:32 620 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1954, partition: 0   
+10-10 13:41:32 668 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1956, partition: 0   
+10-10 13:41:32 694 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1958, partition: 0   
+10-10 13:41:32 744 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1960, partition: 0   
+10-10 13:41:32 800 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1962, partition: 0   
+10-10 13:41:32 845 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1964, partition: 0   
+10-10 13:41:32 895 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1966, partition: 0   
+10-10 13:41:32 947 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1968, partition: 0   
+10-10 13:41:32 997 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1970, partition: 0   
+10-10 13:41:33 049 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1972, partition: 0   
+10-10 13:41:33 063 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1974, partition: 0   
+10-10 13:41:33 121 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1976, partition: 0   
+10-10 13:41:33 160 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1978, partition: 0   
+10-10 13:41:33 195 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1980, partition: 0   
+10-10 13:41:33 238 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1982, partition: 0   
+10-10 13:41:33 276 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1984, partition: 0   
+10-10 13:41:33 311 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1986, partition: 0   
+10-10 13:41:33 348 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1988, partition: 0   
+10-10 13:41:33 389 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1990, partition: 0   
+10-10 13:41:33 433 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1992, partition: 0   
+10-10 13:41:33 466 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1994, partition: 0   
+10-10 13:41:33 513 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1996, partition: 0   
+10-10 13:41:33 548 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 1998, partition: 0   
+10-10 13:41:33 553 main INFO - [Producer clientId=producer-1, transactionalId=db5d63ae-2bfe-48f5-93ef-1b1a449d47ea] Closing the Kafka producer with timeoutMillis = 9223372036854775807 ms.
+10-10 13:41:33 573 main WARN - 关掉了producer ==> com.today.basic.restart.RestartableProducer@648c94da
+10-10 13:41:33 600 main ERROR - Cannot send after the producer is closed.
+java.lang.IllegalStateException: Cannot send after the producer is closed.
+	at org.apache.kafka.clients.producer.internals.RecordAccumulator.append(RecordAccumulator.java:198) ~[kafka-clients-1.0.2.jar:na]
+	at org.apache.kafka.clients.producer.KafkaProducer.doSend(KafkaProducer.java:814) ~[kafka-clients-1.0.2.jar:na]
+	at org.apache.kafka.clients.producer.KafkaProducer.send(KafkaProducer.java:768) ~[kafka-clients-1.0.2.jar:na]
+	at com.today.basic.restart.RestartableProducer.lambda$sendMessage$1(RestartableProducer.java:46) ~[classes/:na]
+	at java.util.Collections$SingletonList.forEach(Collections.java:4822) ~[na:1.8.0_181]
+	at com.today.basic.restart.RestartableProducer.sendMessage(RestartableProducer.java:45) ~[classes/:na]
+	at com.today.basic.restart.Main.main(Main.java:28) [classes/:na]
+10-10 13:42:55 568 main INFO - ProducerConfig values: 
+	acks = all
+	batch.size = 16384
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.id = 
+	compression.type = none
+	connections.max.idle.ms = 540000
+	enable.idempotence = true
+	interceptor.classes = null
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 1
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 1
+	retry.backoff.ms = 100
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = d17a23eb-a717-4491-8082-912b5acb1cbc
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+10-10 13:42:55 705 main INFO - [Producer clientId=producer-1, transactionalId=d17a23eb-a717-4491-8082-912b5acb1cbc] Instantiated a transactional producer.
+10-10 13:42:55 799 main INFO - Kafka version : 1.0.2
+10-10 13:42:55 800 main INFO - Kafka commitId : 2a121f7b1d402825
+10-10 13:42:55 805 main INFO - [Producer clientId=producer-1, transactionalId=d17a23eb-a717-4491-8082-912b5acb1cbc] ProducerId set to -1 with epoch -1
+10-10 13:42:56 357 kafka-producer-network-thread | producer-1 INFO - [Producer clientId=producer-1, transactionalId=d17a23eb-a717-4491-8082-912b5acb1cbc] ProducerId set to 32004 with epoch 0
+10-10 13:42:56 407 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 2000, partition: 0   
+10-10 13:42:56 432 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 2002, partition: 0   
+10-10 13:42:56 450 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 2004, partition: 0   
+10-10 13:42:56 492 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 2006, partition: 0   
+10-10 13:42:56 510 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 2008, partition: 0   
+10-10 13:42:56 551 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 2010, partition: 0   
+10-10 13:42:56 624 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 2012, partition: 0   
+10-10 13:42:56 688 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 2014, partition: 0   
+10-10 13:42:56 730 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 2016, partition: 0   
+10-10 13:42:56 770 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 2018, partition: 0   
+10-10 13:42:56 817 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 2020, partition: 0   
+10-10 13:42:56 865 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 2022, partition: 0   
+10-10 13:42:56 911 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 2024, partition: 0   
+10-10 13:42:56 933 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 2026, partition: 0   
+10-10 13:42:56 953 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 2028, partition: 0   
+10-10 13:42:56 995 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 2030, partition: 0   
+10-10 13:42:57 024 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 2032, partition: 0   
+10-10 13:42:57 057 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 2034, partition: 0   
+10-10 13:42:57 103 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 2036, partition: 0   
+10-10 13:42:57 134 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 2038, partition: 0   
+10-10 13:42:57 145 main INFO - [Producer clientId=producer-1, transactionalId=d17a23eb-a717-4491-8082-912b5acb1cbc] Closing the Kafka producer with timeoutMillis = 9223372036854775807 ms.
+10-10 13:42:57 155 main WARN - 关掉了producer ==> com.today.basic.restart.RestartableProducer@7dc19a70
+10-10 13:42:57 166 main ERROR - null
+java.lang.NullPointerException: null
+	at com.today.basic.restart.RestartableProducer.sendMessage(RestartableProducer.java:44) ~[classes/:na]
+	at com.today.basic.restart.Main.main(Main.java:28) [classes/:na]
+10-10 13:46:33 095 main INFO - ProducerConfig values: 
+	acks = all
+	batch.size = 16384
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.id = 
+	compression.type = none
+	connections.max.idle.ms = 540000
+	enable.idempotence = true
+	interceptor.classes = null
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 1
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 1
+	retry.backoff.ms = 100
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = c42b7bd1-18c8-41a0-82b7-caafe7ef92b6
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+10-10 13:46:33 289 main INFO - [Producer clientId=producer-1, transactionalId=c42b7bd1-18c8-41a0-82b7-caafe7ef92b6] Instantiated a transactional producer.
+10-10 13:46:33 373 main INFO - Kafka version : 1.0.2
+10-10 13:46:33 373 main INFO - Kafka commitId : 2a121f7b1d402825
+10-10 13:46:33 387 main INFO - [Producer clientId=producer-1, transactionalId=c42b7bd1-18c8-41a0-82b7-caafe7ef92b6] ProducerId set to -1 with epoch -1
+10-10 13:46:33 823 kafka-producer-network-thread | producer-1 INFO - [Producer clientId=producer-1, transactionalId=c42b7bd1-18c8-41a0-82b7-caafe7ef92b6] ProducerId set to 32005 with epoch 0
+10-10 13:46:33 875 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 2040, partition: 0   
+10-10 13:46:33 915 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 2042, partition: 0   
+10-10 13:46:33 951 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 2044, partition: 0   
+10-10 13:46:33 997 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 2046, partition: 0   
+10-10 13:46:34 043 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 2048, partition: 0   
+10-10 13:46:34 081 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 2050, partition: 0   
+10-10 13:46:34 138 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 2052, partition: 0   
+10-10 13:46:34 172 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 2054, partition: 0   
+10-10 13:46:34 229 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 2056, partition: 0   
+10-10 13:46:34 278 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 2058, partition: 0   
+10-10 13:46:34 316 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 2060, partition: 0   
+10-10 13:46:34 362 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 2062, partition: 0   
+10-10 13:46:34 397 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 2064, partition: 0   
+10-10 13:46:34 414 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 2066, partition: 0   
+10-10 13:46:34 449 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 2068, partition: 0   
+10-10 13:46:34 482 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 2070, partition: 0   
+10-10 13:46:34 529 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 2072, partition: 0   
+10-10 13:46:34 556 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 2074, partition: 0   
+10-10 13:46:34 596 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 2076, partition: 0   
+10-10 13:46:34 632 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 2078, partition: 0   
+10-10 13:46:34 635 main INFO - [Producer clientId=producer-1, transactionalId=c42b7bd1-18c8-41a0-82b7-caafe7ef92b6] Closing the Kafka producer with timeoutMillis = 9223372036854775807 ms.
+10-10 13:46:34 646 main WARN - 关掉了producer ==> com.today.basic.restart.RestartableProducer@7dc19a70
+10-10 13:46:34 646 main INFO - ProducerConfig values: 
+	acks = all
+	batch.size = 16384
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.id = 
+	compression.type = none
+	connections.max.idle.ms = 540000
+	enable.idempotence = true
+	interceptor.classes = null
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 1
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 1
+	retry.backoff.ms = 100
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = c42b7bd1-18c8-41a0-82b7-caafe7ef92b6
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+10-10 13:46:34 648 main INFO - [Producer clientId=producer-2, transactionalId=c42b7bd1-18c8-41a0-82b7-caafe7ef92b6] Instantiated a transactional producer.
+10-10 13:46:34 656 main INFO - Kafka version : 1.0.2
+10-10 13:46:34 656 main INFO - Kafka commitId : 2a121f7b1d402825
+10-10 13:46:34 656 main INFO - [Producer clientId=producer-2, transactionalId=c42b7bd1-18c8-41a0-82b7-caafe7ef92b6] ProducerId set to -1 with epoch -1
+10-10 13:46:34 880 kafka-producer-network-thread | producer-2 INFO - [Producer clientId=producer-2, transactionalId=c42b7bd1-18c8-41a0-82b7-caafe7ef92b6] ProducerId set to 32005 with epoch 1
+10-10 13:46:34 880 main WARN - 重新启动 producer ==> com.today.basic.restart.RestartableProducer@7dc19a70
+10-10 13:46:34 893 kafka-producer-network-thread | producer-2 INFO - 已经发送成功 offset: 2080, partition: 0   
+10-10 13:46:34 905 kafka-producer-network-thread | producer-2 INFO - 已经发送成功 offset: 2082, partition: 0   
+10-10 13:46:34 954 kafka-producer-network-thread | producer-2 INFO - 已经发送成功 offset: 2084, partition: 0   
+10-10 13:46:34 971 kafka-producer-network-thread | producer-2 INFO - 已经发送成功 offset: 2086, partition: 0   
+10-10 13:46:34 989 kafka-producer-network-thread | producer-2 INFO - 已经发送成功 offset: 2088, partition: 0   
+10-10 13:46:35 009 kafka-producer-network-thread | producer-2 INFO - 已经发送成功 offset: 2090, partition: 0   
+10-10 13:46:35 028 kafka-producer-network-thread | producer-2 INFO - 已经发送成功 offset: 2092, partition: 0   
+10-10 13:46:35 068 kafka-producer-network-thread | producer-2 INFO - 已经发送成功 offset: 2094, partition: 0   
+10-10 13:46:35 116 kafka-producer-network-thread | producer-2 INFO - 已经发送成功 offset: 2096, partition: 0   
+10-10 13:46:35 165 kafka-producer-network-thread | producer-2 INFO - 已经发送成功 offset: 2098, partition: 0   
+10-10 13:46:35 210 kafka-producer-network-thread | producer-2 INFO - 已经发送成功 offset: 2100, partition: 0   
+10-10 13:46:35 253 kafka-producer-network-thread | producer-2 INFO - 已经发送成功 offset: 2102, partition: 0   
+10-10 13:46:35 292 kafka-producer-network-thread | producer-2 INFO - 已经发送成功 offset: 2104, partition: 0   
+10-10 13:46:35 335 kafka-producer-network-thread | producer-2 INFO - 已经发送成功 offset: 2106, partition: 0   
+10-10 13:46:35 376 kafka-producer-network-thread | producer-2 INFO - 已经发送成功 offset: 2108, partition: 0   
+10-10 13:46:35 416 kafka-producer-network-thread | producer-2 INFO - 已经发送成功 offset: 2110, partition: 0   
+10-10 13:46:35 458 kafka-producer-network-thread | producer-2 INFO - 已经发送成功 offset: 2112, partition: 0   
+10-10 13:46:35 497 kafka-producer-network-thread | producer-2 INFO - 已经发送成功 offset: 2114, partition: 0   
+10-10 13:46:35 538 kafka-producer-network-thread | producer-2 INFO - 已经发送成功 offset: 2116, partition: 0   
+10-10 13:46:35 593 kafka-producer-network-thread | producer-2 INFO - 已经发送成功 offset: 2118, partition: 0   
+10-10 13:47:13 910 main INFO - ProducerConfig values: 
+	acks = all
+	batch.size = 16384
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.id = 
+	compression.type = none
+	connections.max.idle.ms = 540000
+	enable.idempotence = true
+	interceptor.classes = null
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 1
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 1
+	retry.backoff.ms = 100
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = 84f169e5-c216-4748-a855-457ffea8dfda
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+10-10 13:47:14 112 main INFO - [Producer clientId=producer-1, transactionalId=84f169e5-c216-4748-a855-457ffea8dfda] Instantiated a transactional producer.
+10-10 13:47:14 194 main INFO - Kafka version : 1.0.2
+10-10 13:47:14 194 main INFO - Kafka commitId : 2a121f7b1d402825
+10-10 13:47:14 202 main INFO - [Producer clientId=producer-1, transactionalId=84f169e5-c216-4748-a855-457ffea8dfda] ProducerId set to -1 with epoch -1
+10-10 13:47:14 836 kafka-producer-network-thread | producer-1 INFO - [Producer clientId=producer-1, transactionalId=84f169e5-c216-4748-a855-457ffea8dfda] ProducerId set to 32006 with epoch 0
+10-10 13:47:14 888 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 2120, partition: 0   
+10-10 13:47:14 951 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 2122, partition: 0   
+10-10 13:47:15 002 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 2124, partition: 0   
+10-10 13:47:15 058 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 2126, partition: 0   
+10-10 13:47:15 118 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 2128, partition: 0   
+10-10 13:47:15 142 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 2130, partition: 0   
+10-10 13:47:15 200 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 2132, partition: 0   
+10-10 13:47:15 241 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 2134, partition: 0   
+10-10 13:47:15 304 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 2136, partition: 0   
+10-10 13:47:15 345 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 2138, partition: 0   
+10-10 13:47:15 388 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 2140, partition: 0   
+10-10 13:47:15 425 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 2142, partition: 0   
+10-10 13:47:15 474 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 2144, partition: 0   
+10-10 13:47:15 523 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 2146, partition: 0   
+10-10 13:47:15 548 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 2148, partition: 0   
+10-10 13:47:15 590 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 2150, partition: 0   
+10-10 13:47:15 604 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 2152, partition: 0   
+10-10 13:47:15 652 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 2154, partition: 0   
+10-10 13:47:15 700 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 2156, partition: 0   
+10-10 13:47:15 746 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 2158, partition: 0   
+10-10 13:47:15 756 main INFO - [Producer clientId=producer-1, transactionalId=84f169e5-c216-4748-a855-457ffea8dfda] Closing the Kafka producer with timeoutMillis = 9223372036854775807 ms.
+10-10 13:47:15 776 main WARN - 关掉了producer ==> com.today.basic.restart.RestartableProducer@7dc19a70
+10-10 13:47:15 776 main INFO - ProducerConfig values: 
+	acks = all
+	batch.size = 16384
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.id = 
+	compression.type = none
+	connections.max.idle.ms = 540000
+	enable.idempotence = true
+	interceptor.classes = null
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 1
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 1
+	retry.backoff.ms = 100
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = 84f169e5-c216-4748-a855-457ffea8dfda
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+10-10 13:47:15 778 main INFO - [Producer clientId=producer-2, transactionalId=84f169e5-c216-4748-a855-457ffea8dfda] Instantiated a transactional producer.
+10-10 13:47:15 790 main INFO - Kafka version : 1.0.2
+10-10 13:47:15 790 main INFO - Kafka commitId : 2a121f7b1d402825
+10-10 13:47:15 790 main INFO - [Producer clientId=producer-2, transactionalId=84f169e5-c216-4748-a855-457ffea8dfda] ProducerId set to -1 with epoch -1
+10-10 13:47:16 015 kafka-producer-network-thread | producer-2 INFO - [Producer clientId=producer-2, transactionalId=84f169e5-c216-4748-a855-457ffea8dfda] ProducerId set to 32006 with epoch 1
+10-10 13:47:16 015 main WARN - 重新启动 producer ==> com.today.basic.restart.RestartableProducer@7dc19a70
+10-10 13:47:16 033 kafka-producer-network-thread | producer-2 INFO - 已经发送成功 offset: 2160, partition: 0   
+10-10 13:47:16 086 kafka-producer-network-thread | producer-2 INFO - 已经发送成功 offset: 2162, partition: 0   
+10-10 13:47:16 133 kafka-producer-network-thread | producer-2 INFO - 已经发送成功 offset: 2164, partition: 0   
+10-10 13:47:16 153 kafka-producer-network-thread | producer-2 INFO - 已经发送成功 offset: 2166, partition: 0   
+10-10 13:47:16 173 kafka-producer-network-thread | producer-2 INFO - 已经发送成功 offset: 2168, partition: 0   
+10-10 13:47:16 214 kafka-producer-network-thread | producer-2 INFO - 已经发送成功 offset: 2170, partition: 0   
+10-10 13:47:16 259 kafka-producer-network-thread | producer-2 INFO - 已经发送成功 offset: 2172, partition: 0   
+10-10 13:47:16 305 kafka-producer-network-thread | producer-2 INFO - 已经发送成功 offset: 2174, partition: 0   
+10-10 13:47:16 354 kafka-producer-network-thread | producer-2 INFO - 已经发送成功 offset: 2176, partition: 0   
+10-10 13:47:16 408 kafka-producer-network-thread | producer-2 INFO - 已经发送成功 offset: 2178, partition: 0   
+10-10 13:47:16 478 kafka-producer-network-thread | producer-2 INFO - 已经发送成功 offset: 2180, partition: 0   
+10-10 13:47:16 546 kafka-producer-network-thread | producer-2 INFO - 已经发送成功 offset: 2182, partition: 0   
+10-10 13:47:16 588 kafka-producer-network-thread | producer-2 INFO - 已经发送成功 offset: 2184, partition: 0   
+10-10 13:47:16 606 kafka-producer-network-thread | producer-2 INFO - 已经发送成功 offset: 2186, partition: 0   
+10-10 13:47:16 650 kafka-producer-network-thread | producer-2 INFO - 已经发送成功 offset: 2188, partition: 0   
+10-10 13:47:16 698 kafka-producer-network-thread | producer-2 INFO - 已经发送成功 offset: 2190, partition: 0   
+10-10 13:47:16 751 kafka-producer-network-thread | producer-2 INFO - 已经发送成功 offset: 2192, partition: 0   
+10-10 13:47:16 789 kafka-producer-network-thread | producer-2 INFO - 已经发送成功 offset: 2194, partition: 0   
+10-10 13:47:16 830 kafka-producer-network-thread | producer-2 INFO - 已经发送成功 offset: 2196, partition: 0   
+10-10 13:47:16 853 kafka-producer-network-thread | producer-2 INFO - 已经发送成功 offset: 2198, partition: 0   
+10-10 14:07:02 572 main INFO - ProducerConfig values: 
+	acks = all
+	batch.size = 16384
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.id = 
+	compression.type = none
+	connections.max.idle.ms = 540000
+	enable.idempotence = true
+	interceptor.classes = null
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 1
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 1
+	retry.backoff.ms = 100
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = 41caaf16-3139-4cba-b0b5-b38f9ee5653d
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+10-10 14:07:02 862 main INFO - [Producer clientId=producer-1, transactionalId=41caaf16-3139-4cba-b0b5-b38f9ee5653d] Instantiated a transactional producer.
+10-10 14:07:02 929 main INFO - Kafka version : 1.0.2
+10-10 14:07:02 930 main INFO - Kafka commitId : 2a121f7b1d402825
+10-10 14:07:02 933 main INFO - [Producer clientId=producer-1, transactionalId=41caaf16-3139-4cba-b0b5-b38f9ee5653d] ProducerId set to -1 with epoch -1
+10-10 14:07:03 643 kafka-producer-network-thread | producer-1 INFO - [Producer clientId=producer-1, transactionalId=41caaf16-3139-4cba-b0b5-b38f9ee5653d] ProducerId set to 32007 with epoch 0
+10-10 14:07:09 185 main WARN - 重新启动 producer ==> com.today.basic.restart.RestartableProducer@1807e3f6
+10-10 14:07:09 254 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 2200, partition: 0   
+10-10 14:07:09 260 main WARN - 重新启动 producer ==> com.today.basic.restart.RestartableProducer@1807e3f6
+10-10 14:07:09 293 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 2202, partition: 0   
+10-10 14:07:09 366 main WARN - 重新启动 producer ==> com.today.basic.restart.RestartableProducer@1807e3f6
+10-10 14:07:09 393 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 2204, partition: 0   
+10-10 14:07:09 507 main WARN - 重新启动 producer ==> com.today.basic.restart.RestartableProducer@1807e3f6
+10-10 14:07:09 528 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 2206, partition: 0   
+10-10 14:07:10 038 main WARN - 重新启动 producer ==> com.today.basic.restart.RestartableProducer@1807e3f6
+10-10 14:07:10 059 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 2208, partition: 0   
+10-10 14:07:10 224 main WARN - 重新启动 producer ==> com.today.basic.restart.RestartableProducer@1807e3f6
+10-10 14:07:10 242 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 2210, partition: 0   
+10-10 14:07:18 935 main WARN - 重新启动 producer ==> com.today.basic.restart.RestartableProducer@1807e3f6
+10-10 14:07:18 958 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 2212, partition: 0   
+10-10 14:08:14 640 main INFO - ProducerConfig values: 
+	acks = all
+	batch.size = 16384
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.id = 
+	compression.type = none
+	connections.max.idle.ms = 540000
+	enable.idempotence = true
+	interceptor.classes = null
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 1
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 1
+	retry.backoff.ms = 100
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = 4df13a99-146e-45bd-bc73-27baff5b2310
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+10-10 14:08:14 771 main INFO - [Producer clientId=producer-1, transactionalId=4df13a99-146e-45bd-bc73-27baff5b2310] Instantiated a transactional producer.
+10-10 14:08:14 882 main INFO - Kafka version : 1.0.2
+10-10 14:08:14 883 main INFO - Kafka commitId : 2a121f7b1d402825
+10-10 14:08:14 891 main INFO - [Producer clientId=producer-1, transactionalId=4df13a99-146e-45bd-bc73-27baff5b2310] ProducerId set to -1 with epoch -1
+10-10 14:08:15 364 kafka-producer-network-thread | producer-1 INFO - [Producer clientId=producer-1, transactionalId=4df13a99-146e-45bd-bc73-27baff5b2310] ProducerId set to 32008 with epoch 0
+10-10 14:08:21 180 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 2214, partition: 0   
+10-10 14:10:28 204 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 2216, partition: 0   
+10-10 14:10:46 915 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 2218, partition: 0   
+10-10 14:11:01 843 main INFO - ProducerConfig values: 
+	acks = all
+	batch.size = 16384
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.id = 
+	compression.type = none
+	connections.max.idle.ms = 540000
+	enable.idempotence = true
+	interceptor.classes = null
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 1
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 1
+	retry.backoff.ms = 100
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = 368f18d1-f404-47d8-bb53-2cf688371307
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+10-10 14:11:02 025 main INFO - [Producer clientId=producer-1, transactionalId=368f18d1-f404-47d8-bb53-2cf688371307] Instantiated a transactional producer.
+10-10 14:11:02 148 main INFO - Kafka version : 1.0.2
+10-10 14:11:02 149 main INFO - Kafka commitId : 2a121f7b1d402825
+10-10 14:11:02 159 main INFO - [Producer clientId=producer-1, transactionalId=368f18d1-f404-47d8-bb53-2cf688371307] ProducerId set to -1 with epoch -1
+10-10 14:11:02 640 kafka-producer-network-thread | producer-1 INFO - [Producer clientId=producer-1, transactionalId=368f18d1-f404-47d8-bb53-2cf688371307] ProducerId set to 32009 with epoch 0
+10-10 14:11:15 952 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 2220, partition: 0   
+10-10 14:11:21 719 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 2222, partition: 0   
+10-10 14:11:50 671 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 2224, partition: 0   
+10-10 14:11:52 882 kafka-producer-network-thread | producer-1 INFO - 已经发送成功 offset: 2226, partition: 0   
+10-10 14:12:00 129 kafka-producer-network-thread | producer-2 WARN - [Producer clientId=producer-2, transactionalId=84f169e5-c216-4748-a855-457ffea8dfda] Connection to node 2 could not be established. Broker may not be available.
+10-10 14:12:00 191 kafka-producer-network-thread | producer-1 WARN - [Producer clientId=producer-1, transactionalId=368f18d1-f404-47d8-bb53-2cf688371307] Connection to node 2 could not be established. Broker may not be available.
+10-10 14:12:00 561 kafka-producer-network-thread | producer-2 WARN - [Producer clientId=producer-2, transactionalId=84f169e5-c216-4748-a855-457ffea8dfda] Connection to node 2 could not be established. Broker may not be available.
+10-10 14:12:00 563 kafka-producer-network-thread | producer-1 WARN - [Producer clientId=producer-1, transactionalId=368f18d1-f404-47d8-bb53-2cf688371307] Connection to node 2 could not be established. Broker may not be available.
+10-10 14:12:09 616 kafka-producer-network-thread | producer-2 WARN - [Producer clientId=producer-2, transactionalId=84f169e5-c216-4748-a855-457ffea8dfda] Connection to node 2 could not be established. Broker may not be available.
+10-10 14:12:09 766 kafka-producer-network-thread | producer-1 WARN - [Producer clientId=producer-1, transactionalId=368f18d1-f404-47d8-bb53-2cf688371307] Connection to node 2 could not be established. Broker may not be available.
+10-10 14:12:15 358 kafka-producer-network-thread | producer-1 WARN - [Producer clientId=producer-1, transactionalId=368f18d1-f404-47d8-bb53-2cf688371307] Error while fetching metadata with correlation id 32 : {struy=LEADER_NOT_AVAILABLE}
+10-10 14:12:35 771 kafka-producer-network-thread | producer-1 WARN - [Producer clientId=producer-1, transactionalId=368f18d1-f404-47d8-bb53-2cf688371307] Error while fetching metadata with correlation id 56 : {struy=LEADER_NOT_AVAILABLE}
+10-10 14:12:37 371 kafka-producer-network-thread | producer-1 ERROR - [Producer clientId=producer-1, transactionalId=368f18d1-f404-47d8-bb53-2cf688371307] Aborting producer batches due to fatal error
+org.apache.kafka.common.KafkaException: org.apache.kafka.common.errors.InvalidPidMappingException: The producer attempted to use a producer id which is not currently assigned to its transactional id
+	at org.apache.kafka.clients.producer.internals.TransactionManager$AddPartitionsToTxnHandler.handleResponse(TransactionManager.java:1037) ~[kafka-clients-1.0.2.jar:na]
+	at org.apache.kafka.clients.producer.internals.TransactionManager$TxnRequestHandler.onComplete(TransactionManager.java:905) ~[kafka-clients-1.0.2.jar:na]
+	at org.apache.kafka.clients.ClientResponse.onComplete(ClientResponse.java:101) ~[kafka-clients-1.0.2.jar:na]
+	at org.apache.kafka.clients.NetworkClient.completeResponses(NetworkClient.java:482) ~[kafka-clients-1.0.2.jar:na]
+	at org.apache.kafka.clients.NetworkClient.poll(NetworkClient.java:474) ~[kafka-clients-1.0.2.jar:na]
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:216) [kafka-clients-1.0.2.jar:na]
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:163) [kafka-clients-1.0.2.jar:na]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_181]
+Caused by: org.apache.kafka.common.errors.InvalidPidMappingException: The producer attempted to use a producer id which is not currently assigned to its transactional id
+10-10 14:12:37 372 kafka-producer-network-thread | producer-1 ERROR - org.apache.kafka.common.errors.InvalidPidMappingException: The producer attempted to use a producer id which is not currently assigned to its transactional id
+org.apache.kafka.common.KafkaException: org.apache.kafka.common.errors.InvalidPidMappingException: The producer attempted to use a producer id which is not currently assigned to its transactional id
+	at org.apache.kafka.clients.producer.internals.TransactionManager$AddPartitionsToTxnHandler.handleResponse(TransactionManager.java:1037) ~[kafka-clients-1.0.2.jar:na]
+	at org.apache.kafka.clients.producer.internals.TransactionManager$TxnRequestHandler.onComplete(TransactionManager.java:905) ~[kafka-clients-1.0.2.jar:na]
+	at org.apache.kafka.clients.ClientResponse.onComplete(ClientResponse.java:101) ~[kafka-clients-1.0.2.jar:na]
+	at org.apache.kafka.clients.NetworkClient.completeResponses(NetworkClient.java:482) ~[kafka-clients-1.0.2.jar:na]
+	at org.apache.kafka.clients.NetworkClient.poll(NetworkClient.java:474) ~[kafka-clients-1.0.2.jar:na]
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:216) [kafka-clients-1.0.2.jar:na]
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:163) [kafka-clients-1.0.2.jar:na]
+	at java.lang.Thread.run(Thread.java:748) ~[na:1.8.0_181]
+Caused by: org.apache.kafka.common.errors.InvalidPidMappingException: The producer attempted to use a producer id which is not currently assigned to its transactional id
+10-10 14:12:37 477 main ERROR - org.apache.kafka.common.errors.InvalidPidMappingException: The producer attempted to use a producer id which is not currently assigned to its transactional id
+org.apache.kafka.common.KafkaException: org.apache.kafka.common.errors.InvalidPidMappingException: The producer attempted to use a producer id which is not currently assigned to its transactional id
+	at org.apache.kafka.clients.producer.internals.TransactionManager$AddPartitionsToTxnHandler.handleResponse(TransactionManager.java:1037) ~[kafka-clients-1.0.2.jar:na]
+	at org.apache.kafka.clients.producer.internals.TransactionManager$TxnRequestHandler.onComplete(TransactionManager.java:905) ~[kafka-clients-1.0.2.jar:na]
+	at org.apache.kafka.clients.ClientResponse.onComplete(ClientResponse.java:101) ~[kafka-clients-1.0.2.jar:na]
+	at org.apache.kafka.clients.NetworkClient.completeResponses(NetworkClient.java:482) ~[kafka-clients-1.0.2.jar:na]
+	at org.apache.kafka.clients.NetworkClient.poll(NetworkClient.java:474) ~[kafka-clients-1.0.2.jar:na]
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:216) ~[kafka-clients-1.0.2.jar:na]
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:163) ~[kafka-clients-1.0.2.jar:na]
+	at java.lang.Thread.run(Thread.java:748) ~[na:1.8.0_181]
+Caused by: org.apache.kafka.common.errors.InvalidPidMappingException: The producer attempted to use a producer id which is not currently assigned to its transactional id
+10-10 14:12:37 478 main WARN - 关掉了producer ==> com.today.basic.restart.RestartableProducer@6cd24612
+10-10 14:12:37 478 main INFO - [Producer clientId=producer-1, transactionalId=368f18d1-f404-47d8-bb53-2cf688371307] Closing the Kafka producer with timeoutMillis = 9223372036854775807 ms.
+10-10 14:12:37 485 main ERROR - null
+java.lang.NullPointerException: null
+	at com.today.basic.restart.RestartableProducer.sendMessage(RestartableProducer.java:44) ~[classes/:na]
+	at com.today.basic.restart.Main.send(Main.java:47) [classes/:na]
+	at com.today.basic.restart.Main.main(Main.java:30) [classes/:na]
+10-10 14:12:37 485 main WARN - producer为空，准备重新启动，重新启动 producer ==> com.today.basic.restart.RestartableProducer@6cd24612
+10-10 14:12:37 486 main INFO - ProducerConfig values: 
+	acks = all
+	batch.size = 16384
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.id = 
+	compression.type = none
+	connections.max.idle.ms = 540000
+	enable.idempotence = true
+	interceptor.classes = null
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 1
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 1
+	retry.backoff.ms = 100
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = 368f18d1-f404-47d8-bb53-2cf688371307
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+10-10 14:12:37 487 main INFO - [Producer clientId=producer-2, transactionalId=368f18d1-f404-47d8-bb53-2cf688371307] Instantiated a transactional producer.
+10-10 14:12:37 495 main INFO - Kafka version : 1.0.2
+10-10 14:12:37 496 main INFO - Kafka commitId : 2a121f7b1d402825
+10-10 14:12:37 496 main INFO - [Producer clientId=producer-2, transactionalId=368f18d1-f404-47d8-bb53-2cf688371307] ProducerId set to -1 with epoch -1
+10-10 14:12:37 972 kafka-producer-network-thread | producer-2 INFO - [Producer clientId=producer-2, transactionalId=368f18d1-f404-47d8-bb53-2cf688371307] ProducerId set to 34000 with epoch 0
+10-10 14:13:02 996 kafka-producer-network-thread | producer-2 INFO - 已经发送成功 offset: 0, partition: 0   
+10-10 14:13:04 303 kafka-producer-network-thread | producer-2 INFO - 已经发送成功 offset: 2, partition: 0   
+10-10 14:13:05 056 kafka-producer-network-thread | producer-2 INFO - 已经发送成功 offset: 4, partition: 0   
+10-10 14:13:06 008 kafka-producer-network-thread | producer-2 INFO - 已经发送成功 offset: 6, partition: 0   
+10-10 15:16:07 529 kafka-producer-network-thread | producer-2 WARN - [Producer clientId=producer-2, transactionalId=84f169e5-c216-4748-a855-457ffea8dfda] Connection to node 2 could not be established. Broker may not be available.
+10-10 15:16:07 904 kafka-producer-network-thread | producer-2 WARN - [Producer clientId=producer-2, transactionalId=84f169e5-c216-4748-a855-457ffea8dfda] Connection to node 2 could not be established. Broker may not be available.
+10-10 15:16:59 845 kafka-producer-network-thread | producer-2 WARN - [Producer clientId=producer-2, transactionalId=84f169e5-c216-4748-a855-457ffea8dfda] Connection to node 2 could not be established. Broker may not be available.
+10-10 15:17:00 062 kafka-producer-network-thread | producer-2 WARN - [Producer clientId=producer-2, transactionalId=84f169e5-c216-4748-a855-457ffea8dfda] Connection to node 2 could not be established. Broker may not be available.
+10-10 15:18:50 804 kafka-producer-network-thread | producer-2 WARN - [Producer clientId=producer-2, transactionalId=84f169e5-c216-4748-a855-457ffea8dfda] Connection to node 2 could not be established. Broker may not be available.
+10-10 15:18:50 973 kafka-producer-network-thread | producer-2 WARN - [Producer clientId=producer-2, transactionalId=84f169e5-c216-4748-a855-457ffea8dfda] Connection to node 2 could not be established. Broker may not be available.
+10-10 15:19:01 572 kafka-producer-network-thread | producer-2 WARN - [Producer clientId=producer-2, transactionalId=84f169e5-c216-4748-a855-457ffea8dfda] Connection to node 2 could not be established. Broker may not be available.
+10-10 15:19:02 475 kafka-producer-network-thread | producer-2 WARN - [Producer clientId=producer-2, transactionalId=84f169e5-c216-4748-a855-457ffea8dfda] Connection to node 2 could not be established. Broker may not be available.
+10-10 15:19:03 476 kafka-producer-network-thread | producer-2 WARN - [Producer clientId=producer-2, transactionalId=84f169e5-c216-4748-a855-457ffea8dfda] Connection to node 2 could not be established. Broker may not be available.
+10-10 15:19:04 656 kafka-producer-network-thread | producer-2 WARN - [Producer clientId=producer-2, transactionalId=84f169e5-c216-4748-a855-457ffea8dfda] Connection to node 2 could not be established. Broker may not be available.
+10-10 15:19:05 528 kafka-producer-network-thread | producer-2 WARN - [Producer clientId=producer-2, transactionalId=84f169e5-c216-4748-a855-457ffea8dfda] Connection to node 2 could not be established. Broker may not be available.
+10-10 15:19:06 434 kafka-producer-network-thread | producer-2 WARN - [Producer clientId=producer-2, transactionalId=84f169e5-c216-4748-a855-457ffea8dfda] Connection to node 2 could not be established. Broker may not be available.
+10-10 15:19:07 389 kafka-producer-network-thread | producer-2 WARN - [Producer clientId=producer-2, transactionalId=84f169e5-c216-4748-a855-457ffea8dfda] Connection to node 2 could not be established. Broker may not be available.
+10-10 15:19:08 355 kafka-producer-network-thread | producer-2 WARN - [Producer clientId=producer-2, transactionalId=84f169e5-c216-4748-a855-457ffea8dfda] Connection to node 2 could not be established. Broker may not be available.
+10-10 15:19:09 587 kafka-producer-network-thread | producer-2 WARN - [Producer clientId=producer-2, transactionalId=84f169e5-c216-4748-a855-457ffea8dfda] Connection to node 2 could not be established. Broker may not be available.
+10-10 15:19:10 654 kafka-producer-network-thread | producer-2 WARN - [Producer clientId=producer-2, transactionalId=84f169e5-c216-4748-a855-457ffea8dfda] Connection to node 2 could not be established. Broker may not be available.
+10-10 15:19:11 837 kafka-producer-network-thread | producer-2 WARN - [Producer clientId=producer-2, transactionalId=84f169e5-c216-4748-a855-457ffea8dfda] Connection to node 2 could not be established. Broker may not be available.
+10-10 15:19:12 950 kafka-producer-network-thread | producer-2 WARN - [Producer clientId=producer-2, transactionalId=84f169e5-c216-4748-a855-457ffea8dfda] Connection to node 2 could not be established. Broker may not be available.
+10-10 15:19:13 792 kafka-producer-network-thread | producer-2 WARN - [Producer clientId=producer-2, transactionalId=84f169e5-c216-4748-a855-457ffea8dfda] Connection to node 2 could not be established. Broker may not be available.
+10-10 15:19:14 972 kafka-producer-network-thread | producer-2 WARN - [Producer clientId=producer-2, transactionalId=84f169e5-c216-4748-a855-457ffea8dfda] Connection to node 2 could not be established. Broker may not be available.
+10-10 15:19:36 409 kafka-producer-network-thread | producer-2 WARN - [Producer clientId=producer-2, transactionalId=84f169e5-c216-4748-a855-457ffea8dfda] Connection to node 2 could not be established. Broker may not be available.
+10-10 15:19:36 625 kafka-producer-network-thread | producer-2 WARN - [Producer clientId=producer-2, transactionalId=84f169e5-c216-4748-a855-457ffea8dfda] Connection to node 2 could not be established. Broker may not be available.
+10-10 15:19:56 651 kafka-producer-network-thread | producer-2 WARN - [Producer clientId=producer-2, transactionalId=84f169e5-c216-4748-a855-457ffea8dfda] Connection to node 2 could not be established. Broker may not be available.
+10-10 15:19:56 864 kafka-producer-network-thread | producer-2 WARN - [Producer clientId=producer-2, transactionalId=84f169e5-c216-4748-a855-457ffea8dfda] Connection to node 2 could not be established. Broker may not be available.
+10-10 15:20:33 550 kafka-producer-network-thread | producer-2 WARN - [Producer clientId=producer-2, transactionalId=84f169e5-c216-4748-a855-457ffea8dfda] Connection to node 2 could not be established. Broker may not be available.
+10-10 15:20:33 764 kafka-producer-network-thread | producer-2 WARN - [Producer clientId=producer-2, transactionalId=84f169e5-c216-4748-a855-457ffea8dfda] Connection to node 2 could not be established. Broker may not be available.
+10-10 15:21:54 556 kafka-producer-network-thread | producer-2 WARN - [Producer clientId=producer-2, transactionalId=84f169e5-c216-4748-a855-457ffea8dfda] Connection to node 2 could not be established. Broker may not be available.
+10-10 15:21:54 776 kafka-producer-network-thread | producer-2 WARN - [Producer clientId=producer-2, transactionalId=84f169e5-c216-4748-a855-457ffea8dfda] Connection to node 2 could not be established. Broker may not be available.
+10-10 15:21:55 258 kafka-producer-network-thread | producer-2 WARN - [Producer clientId=producer-2, transactionalId=84f169e5-c216-4748-a855-457ffea8dfda] Connection to node 2 could not be established. Broker may not be available.
+10-10 15:21:55 951 kafka-producer-network-thread | producer-2 WARN - [Producer clientId=producer-2, transactionalId=84f169e5-c216-4748-a855-457ffea8dfda] Connection to node 2 could not be established. Broker may not be available.
+10-10 15:21:57 026 kafka-producer-network-thread | producer-2 WARN - [Producer clientId=producer-2, transactionalId=84f169e5-c216-4748-a855-457ffea8dfda] Connection to node 2 could not be established. Broker may not be available.
+10-10 15:21:58 256 kafka-producer-network-thread | producer-2 WARN - [Producer clientId=producer-2, transactionalId=84f169e5-c216-4748-a855-457ffea8dfda] Connection to node 2 could not be established. Broker may not be available.
+10-10 15:21:59 492 kafka-producer-network-thread | producer-2 WARN - [Producer clientId=producer-2, transactionalId=84f169e5-c216-4748-a855-457ffea8dfda] Connection to node 2 could not be established. Broker may not be available.
+10-10 15:22:00 611 kafka-producer-network-thread | producer-2 WARN - [Producer clientId=producer-2, transactionalId=84f169e5-c216-4748-a855-457ffea8dfda] Connection to node 2 could not be established. Broker may not be available.
+10-10 15:22:01 519 kafka-producer-network-thread | producer-2 WARN - [Producer clientId=producer-2, transactionalId=84f169e5-c216-4748-a855-457ffea8dfda] Connection to node 2 could not be established. Broker may not be available.
+10-10 15:22:02 583 kafka-producer-network-thread | producer-2 WARN - [Producer clientId=producer-2, transactionalId=84f169e5-c216-4748-a855-457ffea8dfda] Connection to node 2 could not be established. Broker may not be available.
+10-10 15:22:03 765 kafka-producer-network-thread | producer-2 WARN - [Producer clientId=producer-2, transactionalId=84f169e5-c216-4748-a855-457ffea8dfda] Connection to node 2 could not be established. Broker may not be available.
+10-10 15:22:04 618 kafka-producer-network-thread | producer-2 WARN - [Producer clientId=producer-2, transactionalId=84f169e5-c216-4748-a855-457ffea8dfda] Connection to node 2 could not be established. Broker may not be available.
+10-10 15:22:05 594 kafka-producer-network-thread | producer-2 WARN - [Producer clientId=producer-2, transactionalId=84f169e5-c216-4748-a855-457ffea8dfda] Connection to node 2 could not be established. Broker may not be available.
+10-10 15:22:06 722 kafka-producer-network-thread | producer-2 WARN - [Producer clientId=producer-2, transactionalId=84f169e5-c216-4748-a855-457ffea8dfda] Connection to node 2 could not be established. Broker may not be available.
+10-10 15:22:07 684 kafka-producer-network-thread | producer-2 WARN - [Producer clientId=producer-2, transactionalId=84f169e5-c216-4748-a855-457ffea8dfda] Connection to node 2 could not be established. Broker may not be available.
+10-10 15:22:08 805 kafka-producer-network-thread | producer-2 WARN - [Producer clientId=producer-2, transactionalId=84f169e5-c216-4748-a855-457ffea8dfda] Connection to node 2 could not be established. Broker may not be available.
+10-10 15:22:09 671 kafka-producer-network-thread | producer-2 WARN - [Producer clientId=producer-2, transactionalId=84f169e5-c216-4748-a855-457ffea8dfda] Connection to node 2 could not be established. Broker may not be available.
+10-10 15:22:10 846 kafka-producer-network-thread | producer-2 WARN - [Producer clientId=producer-2, transactionalId=84f169e5-c216-4748-a855-457ffea8dfda] Connection to node 2 could not be established. Broker may not be available.
+10-10 15:22:12 064 kafka-producer-network-thread | producer-2 WARN - [Producer clientId=producer-2, transactionalId=84f169e5-c216-4748-a855-457ffea8dfda] Connection to node 2 could not be established. Broker may not be available.
+10-10 15:22:13 241 kafka-producer-network-thread | producer-2 WARN - [Producer clientId=producer-2, transactionalId=84f169e5-c216-4748-a855-457ffea8dfda] Connection to node 2 could not be established. Broker may not be available.
+10-10 15:22:14 363 kafka-producer-network-thread | producer-2 WARN - [Producer clientId=producer-2, transactionalId=84f169e5-c216-4748-a855-457ffea8dfda] Connection to node 2 could not be established. Broker may not be available.
+10-10 15:22:15 376 kafka-producer-network-thread | producer-2 WARN - [Producer clientId=producer-2, transactionalId=84f169e5-c216-4748-a855-457ffea8dfda] Connection to node 2 could not be established. Broker may not be available.
+10-10 15:22:16 238 kafka-producer-network-thread | producer-2 WARN - [Producer clientId=producer-2, transactionalId=84f169e5-c216-4748-a855-457ffea8dfda] Connection to node 2 could not be established. Broker may not be available.
+10-10 15:22:17 475 kafka-producer-network-thread | producer-2 WARN - [Producer clientId=producer-2, transactionalId=84f169e5-c216-4748-a855-457ffea8dfda] Connection to node 2 could not be established. Broker may not be available.
+10-10 15:22:18 604 kafka-producer-network-thread | producer-2 WARN - [Producer clientId=producer-2, transactionalId=84f169e5-c216-4748-a855-457ffea8dfda] Connection to node 2 could not be established. Broker may not be available.
+10-10 15:22:19 621 kafka-producer-network-thread | producer-2 WARN - [Producer clientId=producer-2, transactionalId=84f169e5-c216-4748-a855-457ffea8dfda] Connection to node 2 could not be established. Broker may not be available.
+10-10 15:22:20 475 kafka-producer-network-thread | producer-2 WARN - [Producer clientId=producer-2, transactionalId=84f169e5-c216-4748-a855-457ffea8dfda] Connection to node 2 could not be established. Broker may not be available.
+10-10 15:22:21 376 kafka-producer-network-thread | producer-2 WARN - [Producer clientId=producer-2, transactionalId=84f169e5-c216-4748-a855-457ffea8dfda] Connection to node 2 could not be established. Broker may not be available.
+10-10 15:22:22 548 kafka-producer-network-thread | producer-2 WARN - [Producer clientId=producer-2, transactionalId=84f169e5-c216-4748-a855-457ffea8dfda] Connection to node 2 could not be established. Broker may not be available.
+10-10 15:22:23 611 kafka-producer-network-thread | producer-2 WARN - [Producer clientId=producer-2, transactionalId=84f169e5-c216-4748-a855-457ffea8dfda] Connection to node 2 could not be established. Broker may not be available.
+10-10 15:22:24 458 kafka-producer-network-thread | producer-2 WARN - [Producer clientId=producer-2, transactionalId=84f169e5-c216-4748-a855-457ffea8dfda] Connection to node 2 could not be established. Broker may not be available.
+10-10 15:22:25 322 kafka-producer-network-thread | producer-2 WARN - [Producer clientId=producer-2, transactionalId=84f169e5-c216-4748-a855-457ffea8dfda] Connection to node 2 could not be established. Broker may not be available.
+10-10 15:22:26 613 kafka-producer-network-thread | producer-2 WARN - [Producer clientId=producer-2, transactionalId=84f169e5-c216-4748-a855-457ffea8dfda] Connection to node 2 could not be established. Broker may not be available.
+10-10 15:22:27 467 kafka-producer-network-thread | producer-2 WARN - [Producer clientId=producer-2, transactionalId=84f169e5-c216-4748-a855-457ffea8dfda] Connection to node 2 could not be established. Broker may not be available.
+10-10 15:22:28 386 kafka-producer-network-thread | producer-2 WARN - [Producer clientId=producer-2, transactionalId=84f169e5-c216-4748-a855-457ffea8dfda] Connection to node 2 could not be established. Broker may not be available.
+10-10 15:22:29 290 kafka-producer-network-thread | producer-2 WARN - [Producer clientId=producer-2, transactionalId=84f169e5-c216-4748-a855-457ffea8dfda] Connection to node 2 could not be established. Broker may not be available.

@@ -1,0 +1,435 @@
+12-13 14:29:10 182 main INFO - ConsumerConfig values: 
+	auto.commit.interval.ms = 1000
+	auto.offset.reset = latest
+	bootstrap.servers = [127.0.0.1:9092]
+	check.crcs = true
+	client.id = rebalancedA
+	connections.max.idle.ms = 540000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = maple
+	heartbeat.interval.ms = 3000
+	interceptor.classes = null
+	internal.leave.group.on.close = true
+	isolation.level = read_committed
+	key.deserializer = class com.today.basic.rebalanced.MyDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 305000
+	retry.backoff.ms = 100
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+12-13 14:29:11 022 main INFO - Kafka version : 1.0.2
+12-13 14:29:11 024 main INFO - Kafka commitId : 2a121f7b1d402825
+12-13 14:29:11 049 main INFO - start ...
+12-13 14:29:11 810 main INFO - [Consumer clientId=rebalancedA, groupId=maple] Discovered group coordinator 172.16.18.150:9092 (id: 2147483645 rack: null)
+12-13 14:29:11 843 main INFO - [Consumer clientId=rebalancedA, groupId=maple] Revoking previously assigned partitions []
+12-13 14:29:11 849 main INFO - [Consumer clientId=rebalancedA, groupId=maple] (Re-)joining group
+12-13 14:29:12 429 main INFO - [Consumer clientId=rebalancedA, groupId=maple] Successfully joined group with generation 1
+12-13 14:29:12 431 main INFO - [Consumer clientId=rebalancedA, groupId=maple] Setting newly assigned partitions [member_test-0]
+12-13 14:29:19 765 main INFO - ConsumerConfig values: 
+	auto.commit.interval.ms = 1000
+	auto.offset.reset = latest
+	bootstrap.servers = [127.0.0.1:9092]
+	check.crcs = true
+	client.id = rebalancedB
+	connections.max.idle.ms = 540000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = maple
+	heartbeat.interval.ms = 3000
+	interceptor.classes = null
+	internal.leave.group.on.close = true
+	isolation.level = read_committed
+	key.deserializer = class com.today.basic.rebalanced.MyDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 305000
+	retry.backoff.ms = 100
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+12-13 14:29:20 671 main INFO - Kafka version : 1.0.2
+12-13 14:29:20 672 main INFO - Kafka commitId : 2a121f7b1d402825
+12-13 14:29:20 706 main INFO - start ...
+12-13 14:29:21 976 main INFO - [Consumer clientId=rebalancedB, groupId=maple] Discovered group coordinator 172.16.18.150:9092 (id: 2147483645 rack: null)
+12-13 14:29:21 984 main INFO - [Consumer clientId=rebalancedB, groupId=maple] Revoking previously assigned partitions []
+12-13 14:29:21 991 main INFO - [Consumer clientId=rebalancedB, groupId=maple] (Re-)joining group
+12-13 14:29:24 452 main INFO - [Consumer clientId=rebalancedA, groupId=maple] Revoking previously assigned partitions [member_test-0]
+12-13 14:29:24 684 main INFO - [Consumer clientId=rebalancedA, groupId=maple] (Re-)joining group
+12-13 14:29:24 793 main INFO - [Consumer clientId=rebalancedB, groupId=maple] Successfully joined group with generation 2
+12-13 14:29:24 794 main INFO - [Consumer clientId=rebalancedB, groupId=maple] Setting newly assigned partitions []
+12-13 14:29:24 797 main INFO - [Consumer clientId=rebalancedA, groupId=maple] Successfully joined group with generation 2
+12-13 14:29:24 798 main INFO - [Consumer clientId=rebalancedA, groupId=maple] Setting newly assigned partitions [member_test-0]
+12-13 14:29:30 791 main INFO - ConsumerConfig values: 
+	auto.commit.interval.ms = 1000
+	auto.offset.reset = latest
+	bootstrap.servers = [127.0.0.1:9092]
+	check.crcs = true
+	client.id = rebalancedC
+	connections.max.idle.ms = 540000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = maple
+	heartbeat.interval.ms = 3000
+	interceptor.classes = null
+	internal.leave.group.on.close = true
+	isolation.level = read_committed
+	key.deserializer = class com.today.basic.rebalanced.MyDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 305000
+	retry.backoff.ms = 100
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+12-13 14:29:32 596 main INFO - Kafka version : 1.0.2
+12-13 14:29:32 596 main INFO - Kafka commitId : 2a121f7b1d402825
+12-13 14:29:32 600 main INFO - start ...
+12-13 14:29:34 368 main INFO - [Consumer clientId=rebalancedC, groupId=maple] Discovered group coordinator 172.16.18.150:9092 (id: 2147483645 rack: null)
+12-13 14:29:34 386 main INFO - [Consumer clientId=rebalancedC, groupId=maple] Revoking previously assigned partitions []
+12-13 14:29:34 395 main INFO - [Consumer clientId=rebalancedC, groupId=maple] (Re-)joining group
+12-13 14:29:36 806 main INFO - [Consumer clientId=rebalancedA, groupId=maple] Revoking previously assigned partitions [member_test-0]
+12-13 14:29:36 814 main INFO - [Consumer clientId=rebalancedB, groupId=maple] Revoking previously assigned partitions []
+12-13 14:29:36 814 main INFO - [Consumer clientId=rebalancedB, groupId=maple] (Re-)joining group
+12-13 14:29:36 831 main INFO - [Consumer clientId=rebalancedA, groupId=maple] (Re-)joining group
+12-13 14:29:36 907 main INFO - [Consumer clientId=rebalancedC, groupId=maple] Successfully joined group with generation 3
+12-13 14:29:36 909 main INFO - [Consumer clientId=rebalancedC, groupId=maple] Setting newly assigned partitions []
+12-13 14:29:36 920 main INFO - [Consumer clientId=rebalancedB, groupId=maple] Successfully joined group with generation 3
+12-13 14:29:36 920 main INFO - [Consumer clientId=rebalancedB, groupId=maple] Setting newly assigned partitions []
+12-13 14:29:36 926 main INFO - [Consumer clientId=rebalancedA, groupId=maple] Successfully joined group with generation 3
+12-13 14:29:36 927 main INFO - [Consumer clientId=rebalancedA, groupId=maple] Setting newly assigned partitions [member_test-0]
+12-13 14:32:31 432 main INFO - ProducerConfig values: 
+	acks = all
+	batch.size = 16384
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.id = 
+	compression.type = none
+	connections.max.idle.ms = 540000
+	enable.idempotence = true
+	interceptor.classes = null
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 1
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 1
+	retry.backoff.ms = 100
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = test12345
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+12-13 14:32:31 794 main INFO - [Producer clientId=producer-1, transactionalId=test12345] Instantiated a transactional producer.
+12-13 14:32:31 944 main INFO - Kafka version : 1.0.2
+12-13 14:32:31 945 main INFO - Kafka commitId : 2a121f7b1d402825
+12-13 14:32:31 949 main INFO - [Producer clientId=producer-1, transactionalId=test12345] ProducerId set to -1 with epoch -1
+12-13 14:32:33 211 kafka-producer-network-thread | producer-1 INFO - [Producer clientId=producer-1, transactionalId=test12345] ProducerId set to 1000 with epoch 0
+12-13 14:32:33 620 main ERROR -  收到的消息Key不是Long类型,Size of data received by LongDeserializer is not 8,key内容: 1
+12-13 14:32:33 621 main ERROR -  收到的消息Key不是Long类型,Size of data received by LongDeserializer is not 8,key内容: 5
+12-13 14:32:33 622 main ERROR -  收到的消息Key不是Long类型,Size of data received by LongDeserializer is not 8,key内容: 7
+12-13 14:32:33 622 main ERROR -  收到的消息Key不是Long类型,Size of data received by LongDeserializer is not 8,key内容: 8
+12-13 14:32:33 622 main ERROR -  收到的消息Key不是Long类型,Size of data received by LongDeserializer is not 8,key内容: 11
+12-13 14:32:33 622 main ERROR -  收到的消息Key不是Long类型,Size of data received by LongDeserializer is not 8,key内容: 15
+12-13 14:32:33 623 main ERROR -  收到的消息Key不是Long类型,Size of data received by LongDeserializer is not 8,key内容: 17
+12-13 14:32:33 623 main ERROR -  收到的消息Key不是Long类型,Size of data received by LongDeserializer is not 8,key内容: 21
+12-13 14:32:33 623 main ERROR -  收到的消息Key不是Long类型,Size of data received by LongDeserializer is not 8,key内容: 22
+12-13 14:32:33 624 main ERROR -  收到的消息Key不是Long类型,Size of data received by LongDeserializer is not 8,key内容: 23
+12-13 14:32:33 624 main ERROR -  收到的消息Key不是Long类型,Size of data received by LongDeserializer is not 8,key内容: 25
+12-13 14:32:33 624 main ERROR -  收到的消息Key不是Long类型,Size of data received by LongDeserializer is not 8,key内容: 27
+12-13 14:32:33 625 main ERROR -  收到的消息Key不是Long类型,Size of data received by LongDeserializer is not 8,key内容: 28
+12-13 14:32:33 625 main ERROR -  收到的消息Key不是Long类型,Size of data received by LongDeserializer is not 8,key内容: 30
+12-13 14:32:33 625 main ERROR -  收到的消息Key不是Long类型,Size of data received by LongDeserializer is not 8,key内容: 33
+12-13 14:32:33 625 main ERROR -  收到的消息Key不是Long类型,Size of data received by LongDeserializer is not 8,key内容: 34
+12-13 14:32:33 625 main ERROR -  收到的消息Key不是Long类型,Size of data received by LongDeserializer is not 8,key内容: 37
+12-13 14:32:33 625 main ERROR -  收到的消息Key不是Long类型,Size of data received by LongDeserializer is not 8,key内容: 43
+12-13 14:32:33 625 main ERROR -  收到的消息Key不是Long类型,Size of data received by LongDeserializer is not 8,key内容: 44
+12-13 14:32:33 626 main ERROR -  收到的消息Key不是Long类型,Size of data received by LongDeserializer is not 8,key内容: 45
+12-13 14:32:33 626 main ERROR -  收到的消息Key不是Long类型,Size of data received by LongDeserializer is not 8,key内容: 47
+12-13 14:32:33 626 main ERROR -  收到的消息Key不是Long类型,Size of data received by LongDeserializer is not 8,key内容: 48
+12-13 14:32:33 626 main ERROR -  收到的消息Key不是Long类型,Size of data received by LongDeserializer is not 8,key内容: 52
+12-13 14:32:33 626 main ERROR -  收到的消息Key不是Long类型,Size of data received by LongDeserializer is not 8,key内容: 54
+12-13 14:32:33 626 main ERROR -  收到的消息Key不是Long类型,Size of data received by LongDeserializer is not 8,key内容: 55
+12-13 14:32:33 626 main ERROR -  收到的消息Key不是Long类型,Size of data received by LongDeserializer is not 8,key内容: 56
+12-13 14:32:33 627 main ERROR -  收到的消息Key不是Long类型,Size of data received by LongDeserializer is not 8,key内容: 59
+12-13 14:32:33 627 main ERROR -  收到的消息Key不是Long类型,Size of data received by LongDeserializer is not 8,key内容: 60
+12-13 14:32:33 627 main ERROR -  收到的消息Key不是Long类型,Size of data received by LongDeserializer is not 8,key内容: 61
+12-13 14:32:33 627 main ERROR -  收到的消息Key不是Long类型,Size of data received by LongDeserializer is not 8,key内容: 63
+12-13 14:32:33 627 main ERROR -  收到的消息Key不是Long类型,Size of data received by LongDeserializer is not 8,key内容: 64
+12-13 14:32:33 627 main ERROR -  收到的消息Key不是Long类型,Size of data received by LongDeserializer is not 8,key内容: 70
+12-13 14:32:33 627 main ERROR -  收到的消息Key不是Long类型,Size of data received by LongDeserializer is not 8,key内容: 71
+12-13 14:32:33 627 main ERROR -  收到的消息Key不是Long类型,Size of data received by LongDeserializer is not 8,key内容: 72
+12-13 14:32:33 628 main ERROR -  收到的消息Key不是Long类型,Size of data received by LongDeserializer is not 8,key内容: 76
+12-13 14:32:33 628 main ERROR -  收到的消息Key不是Long类型,Size of data received by LongDeserializer is not 8,key内容: 79
+12-13 14:32:33 628 main ERROR -  收到的消息Key不是Long类型,Size of data received by LongDeserializer is not 8,key内容: 80
+12-13 14:32:33 628 main ERROR -  收到的消息Key不是Long类型,Size of data received by LongDeserializer is not 8,key内容: 82
+12-13 14:32:33 628 main ERROR -  收到的消息Key不是Long类型,Size of data received by LongDeserializer is not 8,key内容: 88
+12-13 14:32:33 628 main ERROR -  收到的消息Key不是Long类型,Size of data received by LongDeserializer is not 8,key内容: 89
+12-13 14:32:33 628 main ERROR -  收到的消息Key不是Long类型,Size of data received by LongDeserializer is not 8,key内容: 92
+12-13 14:32:33 628 main ERROR -  收到的消息Key不是Long类型,Size of data received by LongDeserializer is not 8,key内容: 93
+12-13 14:32:33 629 main ERROR -  收到的消息Key不是Long类型,Size of data received by LongDeserializer is not 8,key内容: 96
+12-13 14:32:33 629 main ERROR -  收到的消息Key不是Long类型,Size of data received by LongDeserializer is not 8,key内容: 98
+12-13 14:32:33 629 main ERROR -  收到的消息Key不是Long类型,Size of data received by LongDeserializer is not 8,key内容: 99
+12-13 14:33:00 622 main INFO - ProducerConfig values: 
+	acks = all
+	batch.size = 16384
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.id = 
+	compression.type = none
+	connections.max.idle.ms = 540000
+	enable.idempotence = true
+	interceptor.classes = null
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 1
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 1
+	retry.backoff.ms = 100
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = test12345
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+12-13 14:33:00 832 main INFO - [Producer clientId=producer-1, transactionalId=test12345] Instantiated a transactional producer.
+12-13 14:33:00 960 main INFO - Kafka version : 1.0.2
+12-13 14:33:00 961 main INFO - Kafka commitId : 2a121f7b1d402825
+12-13 14:33:00 966 main INFO - [Producer clientId=producer-1, transactionalId=test12345] ProducerId set to -1 with epoch -1
+12-13 14:33:01 454 kafka-producer-network-thread | producer-1 INFO - [Producer clientId=producer-1, transactionalId=test12345] ProducerId set to 1000 with epoch 1
+12-13 14:33:01 559 main ERROR -  收到的消息Key不是Long类型,Size of data received by LongDeserializer is not 8,key内容: 1
+12-13 14:33:01 560 main ERROR -  收到的消息Key不是Long类型,Size of data received by LongDeserializer is not 8,key内容: 5
+12-13 14:33:01 560 main ERROR -  收到的消息Key不是Long类型,Size of data received by LongDeserializer is not 8,key内容: 7
+12-13 14:33:01 560 main ERROR -  收到的消息Key不是Long类型,Size of data received by LongDeserializer is not 8,key内容: 8
+12-13 14:33:01 560 main ERROR -  收到的消息Key不是Long类型,Size of data received by LongDeserializer is not 8,key内容: 11
+12-13 14:33:01 560 main ERROR -  收到的消息Key不是Long类型,Size of data received by LongDeserializer is not 8,key内容: 15
+12-13 14:33:01 561 main ERROR -  收到的消息Key不是Long类型,Size of data received by LongDeserializer is not 8,key内容: 17
+12-13 14:33:01 561 main ERROR -  收到的消息Key不是Long类型,Size of data received by LongDeserializer is not 8,key内容: 21
+12-13 14:33:01 561 main ERROR -  收到的消息Key不是Long类型,Size of data received by LongDeserializer is not 8,key内容: 22
+12-13 14:33:01 561 main ERROR -  收到的消息Key不是Long类型,Size of data received by LongDeserializer is not 8,key内容: 23
+12-13 14:33:01 561 main ERROR -  收到的消息Key不是Long类型,Size of data received by LongDeserializer is not 8,key内容: 25
+12-13 14:33:01 561 main ERROR -  收到的消息Key不是Long类型,Size of data received by LongDeserializer is not 8,key内容: 27
+12-13 14:33:01 561 main ERROR -  收到的消息Key不是Long类型,Size of data received by LongDeserializer is not 8,key内容: 28
+12-13 14:33:01 562 main ERROR -  收到的消息Key不是Long类型,Size of data received by LongDeserializer is not 8,key内容: 30
+12-13 14:33:01 562 main ERROR -  收到的消息Key不是Long类型,Size of data received by LongDeserializer is not 8,key内容: 33
+12-13 14:33:01 562 main ERROR -  收到的消息Key不是Long类型,Size of data received by LongDeserializer is not 8,key内容: 34
+12-13 14:33:01 562 main ERROR -  收到的消息Key不是Long类型,Size of data received by LongDeserializer is not 8,key内容: 37
+12-13 14:33:01 562 main ERROR -  收到的消息Key不是Long类型,Size of data received by LongDeserializer is not 8,key内容: 43
+12-13 14:33:01 562 main ERROR -  收到的消息Key不是Long类型,Size of data received by LongDeserializer is not 8,key内容: 44
+12-13 14:33:01 563 main ERROR -  收到的消息Key不是Long类型,Size of data received by LongDeserializer is not 8,key内容: 45
+12-13 14:33:01 563 main ERROR -  收到的消息Key不是Long类型,Size of data received by LongDeserializer is not 8,key内容: 47
+12-13 14:33:01 563 main ERROR -  收到的消息Key不是Long类型,Size of data received by LongDeserializer is not 8,key内容: 48
+12-13 14:33:01 563 main ERROR -  收到的消息Key不是Long类型,Size of data received by LongDeserializer is not 8,key内容: 52
+12-13 14:33:01 563 main ERROR -  收到的消息Key不是Long类型,Size of data received by LongDeserializer is not 8,key内容: 54
+12-13 14:33:01 563 main ERROR -  收到的消息Key不是Long类型,Size of data received by LongDeserializer is not 8,key内容: 55
+12-13 14:33:01 563 main ERROR -  收到的消息Key不是Long类型,Size of data received by LongDeserializer is not 8,key内容: 56
+12-13 14:33:01 563 main ERROR -  收到的消息Key不是Long类型,Size of data received by LongDeserializer is not 8,key内容: 59
+12-13 14:33:01 564 main ERROR -  收到的消息Key不是Long类型,Size of data received by LongDeserializer is not 8,key内容: 60
+12-13 14:33:01 564 main ERROR -  收到的消息Key不是Long类型,Size of data received by LongDeserializer is not 8,key内容: 61
+12-13 14:33:01 564 main ERROR -  收到的消息Key不是Long类型,Size of data received by LongDeserializer is not 8,key内容: 63
+12-13 14:33:01 564 main ERROR -  收到的消息Key不是Long类型,Size of data received by LongDeserializer is not 8,key内容: 64
+12-13 14:33:01 564 main ERROR -  收到的消息Key不是Long类型,Size of data received by LongDeserializer is not 8,key内容: 70
+12-13 14:33:01 564 main ERROR -  收到的消息Key不是Long类型,Size of data received by LongDeserializer is not 8,key内容: 71
+12-13 14:33:01 564 main ERROR -  收到的消息Key不是Long类型,Size of data received by LongDeserializer is not 8,key内容: 72
+12-13 14:33:01 564 main ERROR -  收到的消息Key不是Long类型,Size of data received by LongDeserializer is not 8,key内容: 76
+12-13 14:33:01 564 main ERROR -  收到的消息Key不是Long类型,Size of data received by LongDeserializer is not 8,key内容: 79
+12-13 14:33:01 565 main ERROR -  收到的消息Key不是Long类型,Size of data received by LongDeserializer is not 8,key内容: 80
+12-13 14:33:01 565 main ERROR -  收到的消息Key不是Long类型,Size of data received by LongDeserializer is not 8,key内容: 82
+12-13 14:33:01 565 main ERROR -  收到的消息Key不是Long类型,Size of data received by LongDeserializer is not 8,key内容: 88
+12-13 14:33:01 565 main ERROR -  收到的消息Key不是Long类型,Size of data received by LongDeserializer is not 8,key内容: 89
+12-13 14:33:01 565 main ERROR -  收到的消息Key不是Long类型,Size of data received by LongDeserializer is not 8,key内容: 92
+12-13 14:33:01 565 main ERROR -  收到的消息Key不是Long类型,Size of data received by LongDeserializer is not 8,key内容: 93
+12-13 14:33:01 565 main ERROR -  收到的消息Key不是Long类型,Size of data received by LongDeserializer is not 8,key内容: 96
+12-13 14:33:01 565 main ERROR -  收到的消息Key不是Long类型,Size of data received by LongDeserializer is not 8,key内容: 98
+12-13 14:33:01 565 main ERROR -  收到的消息Key不是Long类型,Size of data received by LongDeserializer is not 8,key内容: 99
+12-13 14:34:11 869 main INFO - [Consumer clientId=rebalancedA, groupId=maple] Revoking previously assigned partitions [member_test-0]
+12-13 14:34:11 883 main INFO - [Consumer clientId=rebalancedA, groupId=maple] (Re-)joining group
+12-13 14:34:13 211 main INFO - [Consumer clientId=rebalancedC, groupId=maple] Revoking previously assigned partitions []
+12-13 14:34:13 211 main INFO - [Consumer clientId=rebalancedC, groupId=maple] (Re-)joining group
+12-13 14:34:13 234 main INFO - [Consumer clientId=rebalancedB, groupId=maple] Revoking previously assigned partitions []
+12-13 14:34:13 235 main INFO - [Consumer clientId=rebalancedB, groupId=maple] (Re-)joining group
+12-13 14:34:13 256 main INFO - [Consumer clientId=rebalancedA, groupId=maple] Successfully joined group with generation 4
+12-13 14:34:13 257 main INFO - [Consumer clientId=rebalancedC, groupId=maple] Successfully joined group with generation 4
+12-13 14:34:13 257 main INFO - [Consumer clientId=rebalancedA, groupId=maple] Setting newly assigned partitions [member_test-0]
+12-13 14:34:13 257 main INFO - [Consumer clientId=rebalancedB, groupId=maple] Successfully joined group with generation 4
+12-13 14:34:13 259 main INFO - [Consumer clientId=rebalancedC, groupId=maple] Setting newly assigned partitions [member_test-2]
+12-13 14:34:13 261 main INFO - [Consumer clientId=rebalancedB, groupId=maple] Setting newly assigned partitions [member_test-1]
