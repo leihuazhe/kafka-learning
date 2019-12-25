@@ -1,5 +1,35 @@
-/.idea
+*.idea
 /target
-/soa.base_IS_UNDEFINED
-/*.iml
 **/**.DS_Store
+
+
+# maven ignore
+target/
+*.jar
+!.mvn/wrapper/*
+*.war
+*.zip
+*.tar
+*.tar.gz
+
+# eclipse ignore
+.settings/
+.project
+.classpath
+
+# idea ignore
+*.ipr
+*.iml
+*.iws
+
+# temp ignore
+*.log
+*.cache
+*.diff
+*.patch
+*.tmp
+
+# system ignore
+.DS_Store
+Thumbs.db
+*.orig
