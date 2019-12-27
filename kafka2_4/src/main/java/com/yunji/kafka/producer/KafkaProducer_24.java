@@ -7,6 +7,8 @@ import java.util.Properties;
 import java.util.Random;
 import java.util.concurrent.Future;
 
+import static org.apache.kafka.clients.producer.ProducerConfig.COMPRESSION_TYPE_CONFIG;
+
 /**
  * @Desc: KafkaBase kafka 客户端发送 record (消息) 到 kafka 集群
  * @author: maple
@@ -30,6 +32,10 @@ public class KafkaProducer_24 {
         PROPERTIES.put("buffer.memory", 33554432);
         PROPERTIES.put("key.serializer", StringSerializer.class);
         PROPERTIES.put("value.serializer", StringSerializer.class);
+        //指定partitioner策略
+        PROPERTIES.put("partitioner.class", RoundRobinPartitioner.class);
+        //使用压缩策略.
+        PROPERTIES.put(COMPRESSION_TYPE_CONFIG, "zstd");
         producer = new KafkaProducer<>(PROPERTIES);
     }
 
@@ -42,10 +48,9 @@ public class KafkaProducer_24 {
      * 生产者的缓冲空间池保留尚未发送到服务器的消息
      */
     public static void sendTest() {
-
         try {
             for (int i = 0; i < 100000; i++) {
-                producer.send(new ProducerRecord<>(TOPIC, Integer.toString(i), TOPIC + Integer.toString(i)), (metadata, exception) -> {
+                producer.send(new ProducerRecord<>(TOPIC, /*Integer.toString(i), */TOPIC + Integer.toString(i)), (metadata, exception) -> {
                     if (exception != null) {
                         exception.printStackTrace();
                     } else {
