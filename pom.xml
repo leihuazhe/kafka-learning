@@ -9,7 +9,7 @@
     <packaging>pom</packaging>
     <version>0.1-SNAPSHOT</version>
     <modules>
-        <module>kafka2_4</module>
+        <module>kafka281</module>
     </modules>
 
     <properties>

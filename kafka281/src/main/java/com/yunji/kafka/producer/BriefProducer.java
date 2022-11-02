@@ -1,11 +1,16 @@
 package com.yunji.kafka.producer;
 
-import org.apache.kafka.clients.producer.*;
+import org.apache.kafka.clients.producer.KafkaProducer;
+import org.apache.kafka.clients.producer.Producer;
+import org.apache.kafka.clients.producer.ProducerRecord;
 import org.apache.kafka.common.serialization.StringSerializer;
 
-import java.util.*;
-import java.util.concurrent.Future;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Properties;
 
+import static com.yunji.kafka.Constants.SERVER_ADDRESS;
+import static com.yunji.kafka.Constants.TOPIC;
 import static org.apache.kafka.clients.producer.ProducerConfig.COMPRESSION_TYPE_CONFIG;
 
 /**
@@ -13,12 +18,10 @@ import static org.apache.kafka.clients.producer.ProducerConfig.COMPRESSION_TYPE_
  * @author: maple
  * @Date: 2018-01-18 15:44
  */
-public class KafkaProducer_24 {
+public class BriefProducer {
 
     public static final Properties PROPERTIES = new Properties();
     public static final Map<String, Integer> partitionsMap = new HashMap<>();
-
-    public static final String TOPIC = "feature";
 
     public static Producer<String, String> producer;
 
@@ -28,7 +31,7 @@ public class KafkaProducer_24 {
 
 
     static {
-        PROPERTIES.put("bootstrap.servers", "localhost:9092");
+        PROPERTIES.put("bootstrap.servers", SERVER_ADDRESS);
         PROPERTIES.put("acks", "all");
         PROPERTIES.put("retries", 1);
         PROPERTIES.put("batch.size", 16384); //缓存每个分区未发送消息
@@ -49,9 +52,9 @@ public class KafkaProducer_24 {
      */
     public static void sendTest() {
         try {
-            for (int i = 0; i < 100000; i++) {
+            for (int i = 0; i < 100; i++) {
                 for (int i1 = 0; i1 < 200; i1++) {
-                    producer.send(new ProducerRecord<>(TOPIC, /*Integer.toString(i), */TOPIC + Integer.toString(i)), (metadata, exception) -> {
+                    producer.send(new ProducerRecord<>(TOPIC, String.format("%s-%d-%d", TOPIC, i, i1)), (metadata, exception) -> {
                         if (exception != null) {
                             exception.printStackTrace();
                         } else {
@@ -64,7 +67,7 @@ public class KafkaProducer_24 {
                                 }
                                 return v + 1;
                             });
-//                            System.out.println("Successful: offset: " + offset + ", p: " + partition + ", time: " + System.currentTimeMillis());
+                            System.out.println("Successful: offset: " + offset + ", p: " + partition + ", time: " + System.currentTimeMillis());
                         }
                     });
                     Thread.sleep(1);

@@ -1,4 +1,4 @@
-package com.yunji.kafka.consumer;
+package com.maple.services;
 
 import java.util.regex.Pattern;
 
